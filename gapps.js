@@ -86,4 +86,4 @@ setInterval(async function() {
     }
   }
   fs.writeFileSync('./gapps.json', JSON.stringify(gapps, null, 2), function(err) {if (err) throw err})
-}, 86400000)
+}, 43200000)
