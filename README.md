@@ -12,6 +12,8 @@ A script automatically fetch OpenGapps from SourceForge
                     |-- name
                     |-- date
                     |-- size
+                    |-- md5
+                    |-- sha1
                     |-- download
             |-- beta: boolean
 ```
