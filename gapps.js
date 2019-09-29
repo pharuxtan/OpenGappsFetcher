@@ -35,7 +35,7 @@ setInterval(async function() {
               var gfile = fileroot.querySelector('#files_list').childNodes[11].childNodes.find(n => n.rawAttrs === `title="${sel}" class="file "`).childNodes;
               gapps[archs[ar]][version]["downloads"][variant] = {
                 "name": sel,
-                "date": new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000,
+                "date": Math.floor(new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000),
                 "size": gfile.find(n => n.rawAttrs === `headers="files_size_h" class="opt"`).childNodes[0].rawText.replace(/\s/g, ""),
                 "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/beta/${timed}/${sel}?r=&ts={time}&use_mirror=autoselect`
               }
@@ -67,7 +67,7 @@ setInterval(async function() {
           var gfile = fileroot.querySelector('#files_list').childNodes[11].childNodes.find(n => n.rawAttrs === `title="${sel}" class="file "`).childNodes;
           gapps[archs[ar]][version]["downloads"][variant] = {
             "name": sel,
-            "date": new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000,
+            "date": Math.floor(new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000),
             "size": gfile.find(n => n.rawAttrs === `headers="files_size_h" class="opt"`).childNodes[0].rawText.replace(/\s/g, ""),
             "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/${time}/${sel}?r=&ts={time}&use_mirror=autoselect`
           }
