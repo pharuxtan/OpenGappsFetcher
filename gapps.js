@@ -61,6 +61,8 @@ setInterval(async function() {
         let variant = sel.split("-")[3]
         if (gapps[archs[ar]][version] === undefined) {
           gapps[archs[ar]][version] = {"variant": [],"downloads":{},"beta": false};
+        } else if(gapps[archs[ar]][version]["beta"]){
+          gapps[archs[ar]][version] = {"variant": [],"downloads":{},"beta": false};
         }
         if (!gapps[archs[ar]][version]["variant"].includes(variant)) {
           gapps[archs[ar]][version]["variant"].push(variant);
