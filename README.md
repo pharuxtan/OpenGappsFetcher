@@ -5,7 +5,7 @@ A script automatically fetch OpenGapps from SourceForge
 ## Structure
 ```
     |-- platform/architecture
-        |-- Version
+        |-- version
             |-- variant: [Array] 
             |-- downloads
                 |-- variant
