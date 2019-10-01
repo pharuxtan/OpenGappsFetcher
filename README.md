@@ -17,3 +17,7 @@ A script automatically fetch OpenGapps from SourceForge
                     |-- download
             |-- beta: boolean
 ```
+
+## Telegram Group
+
+https://t.me/opengappsfetcher
