@@ -34,15 +34,34 @@ setInterval(async function() {
             }
             if (!gapps[archs[ar]][version]["variant"].includes(variant)) {
               gapps[archs[ar]][version]["variant"].push(variant);
-              var gfile = fileroot.querySelector('#files_list').childNodes[11].childNodes.find(n => n.rawAttrs === `title="${sel}" class="file "`).childNodes;
-              gapps[archs[ar]][version]["downloads"][variant] = {
-                "name": sel,
-                "date": Math.floor(new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000),
-                "size": gfile.find(n => n.rawAttrs === `headers="files_size_h" class="opt"`).childNodes[0].rawText.replace(/\s/g, ""),
-                "md5": info.md5,
-                "sha1": info.sha1,
-                "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/beta/${timed}/${sel}?r=&ts={time}&use_mirror=autoselect`
+              let gfile = fileroot.querySelector('#files_list').childNodes[11].childNodes.find(n => n.rawAttrs === `title="${sel}" class="file "`).childNodes;
+              let download;
+              if(infos[`${sel}.md5`] !== undefined){
+                download = {
+                  "name": sel,
+                  "date": Math.floor(new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000),
+                  "filedate": timed,
+                  "size": gfile.find(n => n.rawAttrs === `headers="files_size_h" class="opt"`).childNodes[0].rawText.replace(/\s/g, ""),
+                  "md5file": {
+                    "name": `${sel}.md5`,
+                    "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/beta/${timed}/${sel}.md5?r=&ts={time}&use_mirror=autoselect`
+                  },
+                  "md5": info.md5,
+                  "sha1": info.sha1,
+                  "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/beta/${timed}/${sel}?r=&ts={time}&use_mirror=autoselect`
+                }
+              } else {
+                download = {
+                  "name": sel,
+                  "date": Math.floor(new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000),
+                  "filedate": timed,
+                  "size": gfile.find(n => n.rawAttrs === `headers="files_size_h" class="opt"`).childNodes[0].rawText.replace(/\s/g, ""),
+                  "md5": info.md5,
+                  "sha1": info.sha1,
+                  "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/beta/${timed}/${sel}?r=&ts={time}&use_mirror=autoselect`
+                }
               }
+              gapps[archs[ar]][version]["downloads"][variant] = download;
             }
           }
         }
@@ -72,15 +91,34 @@ setInterval(async function() {
         }
         if (!gapps[archs[ar]][version]["variant"].includes(variant)) {
           gapps[archs[ar]][version]["variant"].push(variant);
-          var gfile = fileroot.querySelector('#files_list').childNodes[11].childNodes.find(n => n.rawAttrs === `title="${sel}" class="file "`).childNodes;
-          gapps[archs[ar]][version]["downloads"][variant] = {
-            "name": sel,
-            "date": Math.floor(new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000),
-            "size": gfile.find(n => n.rawAttrs === `headers="files_size_h" class="opt"`).childNodes[0].rawText.replace(/\s/g, ""),
-            "md5": info.md5,
-            "sha1": info.sha1,
-            "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/${time}/${sel}?r=&ts={time}&use_mirror=autoselect`
+          let gfile = fileroot.querySelector('#files_list').childNodes[11].childNodes.find(n => n.rawAttrs === `title="${sel}" class="file "`).childNodes;
+          let download;
+          if(infos[`${sel}.md5`] !== undefined){
+            download = {
+              "name": sel,
+              "date": Math.floor(new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000),
+              "filedate": time,
+              "size": gfile.find(n => n.rawAttrs === `headers="files_size_h" class="opt"`).childNodes[0].rawText.replace(/\s/g, ""),
+              "md5file": {
+                "name": `${sel}.md5`,
+                "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/${time}/${sel}.md5?r=&ts={time}&use_mirror=autoselect`
+              },
+              "md5": info.md5,
+              "sha1": info.sha1,
+              "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/${time}/${sel}?r=&ts={time}&use_mirror=autoselect`
+            }
+          } else {
+            download = {
+              "name": sel,
+              "date": Math.floor(new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000),
+              "filedate": time,
+              "size": gfile.find(n => n.rawAttrs === `headers="files_size_h" class="opt"`).childNodes[0].rawText.replace(/\s/g, ""),
+              "md5": info.md5,
+              "sha1": info.sha1,
+              "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/${time}/${sel}?r=&ts={time}&use_mirror=autoselect`
+            }
           }
+          gapps[archs[ar]][version]["downloads"][variant] = download;
         }
       }
     }
