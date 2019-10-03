@@ -2,6 +2,7 @@
   "x86_64": {
     "9.0": {
       "variant": [
+        "tvstock",
         "super",
         "stock",
         "full",
@@ -11,6 +12,19 @@
         "pico"
       ],
       "downloads": {
+        "tvstock": {
+          "name": "open_gapps-x86_64-9.0-tvstock-20191003.zip",
+          "date": 1570073533,
+          "filedate": "20191003",
+          "size": "254.0MB",
+          "md5file": {
+            "name": "open_gapps-x86_64-9.0-tvstock-20191003.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/x86_64/20191003/open_gapps-x86_64-9.0-tvstock-20191003.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          },
+          "md5": "4cc76a4c8ef399d7136498075dedb29c",
+          "sha1": "a81c3c6e9e3baac6d846906993b179872fc97807",
+          "download": "https://downloads.sourceforge.net/project/opengapps/x86_64/20191003/open_gapps-x86_64-9.0-tvstock-20191003.zip?r=&ts={time}&use_mirror=autoselect"
+        },
         "super": {
           "name": "open_gapps-x86_64-9.0-super-20191003.zip",
           "date": 1570073498,
