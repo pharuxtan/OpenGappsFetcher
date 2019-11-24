@@ -4,17 +4,15 @@ setInterval(async function() {
   const fs = require('fs');
   let gapps = {};
   let arch = await fetch(`https://sourceforge.net/projects/opengapps/files/`).then(res => res.text());
-  let archroot = HTMLParser.parse(arch);
-  let archs = archroot.querySelector('#files_list').childNodes[11].childNodes.filter(n => n.nodeType !== 3).map(n => n.rawAttrs.split('"')[1]);
+  let archs = Object.keys(JSON.parse(arch.split("net.sf.files = ")[1].split(";")[0])).reverse().filter(n => n.indexOf(".") === -1);
   for (let a = 0; a < archs.length; a++) {
     let ar = a;
     gapps[archs[ar]] = {};
     let date = await fetch(`https://sourceforge.net/projects/opengapps/files/${archs[ar]}/`).then(res => res.text());
-    let dateroot = HTMLParser.parse(date);
-    let dates = dateroot.querySelector('#files_list').childNodes[11].childNodes.filter(n => n.nodeType !== 3);
+    let dates = Object.keys(JSON.parse(date.split("net.sf.files = ")[1].split(";")[0])).reverse();
     let time;
     for (var i = 0; i < dates.length; i++) {
-      let test = `${dates[i].rawAttrs}`.split('"')[1];
+      let test = dates[i];
       if (test === "beta") {
         let dates = await fetch(`https://sourceforge.net/projects/opengapps/files/${archs[ar]}/beta/`).then(res => res.text());
         let daterootd = HTMLParser.parse(dates);
@@ -68,15 +66,15 @@ setInterval(async function() {
       }
     }
     for (var i = 0; i < dates.length; i++) {
-      let test = `${dates[i].rawAttrs}`.split('"')[1];
+      let test = dates[i];
       if (test !== "test" && test !== "beta" && test !== undefined) {
         time = test;
         i = dates.length;
       }
     }
-    let file = await fetch(`https://sourceforge.net/projects/opengapps/files/${archs[ar]}/${time}/`).then(res => res.text())
+    let file = await fetch(`https://sourceforge.net/projects/opengapps/files/${archs[ar]}/${time}/`).then(res => res.text());
     let fileroot = HTMLParser.parse(file);
-    let files = fileroot.querySelector('#files_list').childNodes[11].childNodes.filter(n => n.nodeType !== 3).map(n => n.rawAttrs.split('"')[1]);
+    let files = Object.keys(JSON.parse(file.split("net.sf.files = ")[1].split(";")[0])).reverse();
     let infos = JSON.parse(file.split("net.sf.files = ")[1].split(";")[0]);
     for (var f = 0; f < files.length; f++) {
       let sel = files[f];
