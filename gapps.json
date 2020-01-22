@@ -1,105 +1,5 @@
 {
-  "arm64": {
-    "10.0": {
-      "variant": [
-        "tvstock",
-        "super",
-        "stock",
-        "pico",
-        "nano",
-        "mini",
-        "micro",
-        "full",
-        "aroma"
-      ],
-      "downloads": {
-        "tvstock": {
-          "name": "open_gapps-arm64-10.0-tvstock-20200116-BETA.zip",
-          "date": 1579124657,
-          "filedate": "20200116",
-          "size": "219.0MB",
-          "md5": "f9c474562a1a55aebaa7446e9fbc86b6",
-          "sha1": "61e9fe2e7a671f52ff68784d8544021640488c54",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-tvstock-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
-        },
-        "super": {
-          "name": "open_gapps-arm64-10.0-super-20200116-BETA.zip",
-          "date": 1579124638,
-          "filedate": "20200116",
-          "size": "1.0GB",
-          "md5": "12bea1a40e244e5d5ddecb4c28291ea7",
-          "sha1": "f24cd6afcad630d39d2f65b1ba70580baab5ba8d",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-super-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
-        },
-        "stock": {
-          "name": "open_gapps-arm64-10.0-stock-20200116-BETA.zip",
-          "date": 1579124554,
-          "filedate": "20200116",
-          "size": "789.8MB",
-          "md5": "9ab83c87528e308d1e95f1b6410caea6",
-          "sha1": "6114841914721428d4b210021b36418f72873b9a",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-stock-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
-        },
-        "pico": {
-          "name": "open_gapps-arm64-10.0-pico-20200116-BETA.zip",
-          "date": 1579124488,
-          "filedate": "20200116",
-          "size": "100.0MB",
-          "md5": "114d6bbb5fb36d954045150c3ebe6d61",
-          "sha1": "fa426a3b909175ca447dcdec649b753522798e58",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-pico-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
-        },
-        "nano": {
-          "name": "open_gapps-arm64-10.0-nano-20200116-BETA.zip",
-          "date": 1579124480,
-          "filedate": "20200116",
-          "size": "174.6MB",
-          "md5": "e248d6d6dc15259ac0e18cd957c99a62",
-          "sha1": "737e084d045c42f36b5db25b3a4902bcd336cc90",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-nano-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
-        },
-        "mini": {
-          "name": "open_gapps-arm64-10.0-mini-20200116-BETA.zip",
-          "date": 1579124466,
-          "filedate": "20200116",
-          "size": "372.1MB",
-          "md5": "1a1c3208839868d6c0742606af18b7fa",
-          "sha1": "834a63b4c5dfea84fe53a00f328aad5cd6815403",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-mini-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
-        },
-        "micro": {
-          "name": "open_gapps-arm64-10.0-micro-20200116-BETA.zip",
-          "date": 1579124436,
-          "filedate": "20200116",
-          "size": "222.2MB",
-          "md5": "3569e315b5ee885ff31cf5636b88bf13",
-          "sha1": "d734d023be1f9a3b76dc10b441390d705d38f5f9",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-micro-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
-        },
-        "full": {
-          "name": "open_gapps-arm64-10.0-full-20200116-BETA.zip",
-          "date": 1579124417,
-          "filedate": "20200116",
-          "size": "553.0MB",
-          "md5": "0742e15bf0d22b4db9db2f1a5932cd6e",
-          "sha1": "b3c3a5731ac743fa2b3b18a641030272ae25ebc8",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-full-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
-        },
-        "aroma": {
-          "name": "open_gapps-arm64-10.0-aroma-20200116-BETA.zip",
-          "date": 1579124366,
-          "filedate": "20200116",
-          "size": "1.3GB",
-          "md5": "c832c393ea39280a61b5caa937ffba9c",
-          "sha1": "ba96673dc9c57613fe73908932dabb24506b3a1c",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-aroma-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
-        }
-      },
-      "beta": true
-    }
-  },
   "x86": {},
-  "x86_64": {},
   "arm": {
     "10.0": {
       "variant": [
@@ -194,6 +94,106 @@
           "md5": "2ed20a1035de529aa6395eda9e13029e",
           "sha1": "274363e782dba6c3619b7fe572684684d2395614",
           "download": "https://downloads.sourceforge.net/project/opengapps/arm/beta/20200116/open_gapps-arm-10.0-aroma-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
+        }
+      },
+      "beta": true
+    }
+  },
+  "x86_64": {},
+  "arm64": {
+    "10.0": {
+      "variant": [
+        "tvstock",
+        "super",
+        "stock",
+        "pico",
+        "nano",
+        "mini",
+        "micro",
+        "full",
+        "aroma"
+      ],
+      "downloads": {
+        "tvstock": {
+          "name": "open_gapps-arm64-10.0-tvstock-20200116-BETA.zip",
+          "date": 1579124657,
+          "filedate": "20200116",
+          "size": "219.0MB",
+          "md5": "f9c474562a1a55aebaa7446e9fbc86b6",
+          "sha1": "61e9fe2e7a671f52ff68784d8544021640488c54",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-tvstock-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
+        },
+        "super": {
+          "name": "open_gapps-arm64-10.0-super-20200116-BETA.zip",
+          "date": 1579124638,
+          "filedate": "20200116",
+          "size": "1.0GB",
+          "md5": "12bea1a40e244e5d5ddecb4c28291ea7",
+          "sha1": "f24cd6afcad630d39d2f65b1ba70580baab5ba8d",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-super-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
+        },
+        "stock": {
+          "name": "open_gapps-arm64-10.0-stock-20200116-BETA.zip",
+          "date": 1579124554,
+          "filedate": "20200116",
+          "size": "789.8MB",
+          "md5": "9ab83c87528e308d1e95f1b6410caea6",
+          "sha1": "6114841914721428d4b210021b36418f72873b9a",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-stock-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
+        },
+        "pico": {
+          "name": "open_gapps-arm64-10.0-pico-20200116-BETA.zip",
+          "date": 1579124488,
+          "filedate": "20200116",
+          "size": "100.0MB",
+          "md5": "114d6bbb5fb36d954045150c3ebe6d61",
+          "sha1": "fa426a3b909175ca447dcdec649b753522798e58",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-pico-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
+        },
+        "nano": {
+          "name": "open_gapps-arm64-10.0-nano-20200116-BETA.zip",
+          "date": 1579124480,
+          "filedate": "20200116",
+          "size": "174.6MB",
+          "md5": "e248d6d6dc15259ac0e18cd957c99a62",
+          "sha1": "737e084d045c42f36b5db25b3a4902bcd336cc90",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-nano-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
+        },
+        "mini": {
+          "name": "open_gapps-arm64-10.0-mini-20200116-BETA.zip",
+          "date": 1579124466,
+          "filedate": "20200116",
+          "size": "372.1MB",
+          "md5": "1a1c3208839868d6c0742606af18b7fa",
+          "sha1": "834a63b4c5dfea84fe53a00f328aad5cd6815403",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-mini-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
+        },
+        "micro": {
+          "name": "open_gapps-arm64-10.0-micro-20200116-BETA.zip",
+          "date": 1579124436,
+          "filedate": "20200116",
+          "size": "222.2MB",
+          "md5": "3569e315b5ee885ff31cf5636b88bf13",
+          "sha1": "d734d023be1f9a3b76dc10b441390d705d38f5f9",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-micro-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
+        },
+        "full": {
+          "name": "open_gapps-arm64-10.0-full-20200116-BETA.zip",
+          "date": 1579124417,
+          "filedate": "20200116",
+          "size": "553.0MB",
+          "md5": "0742e15bf0d22b4db9db2f1a5932cd6e",
+          "sha1": "b3c3a5731ac743fa2b3b18a641030272ae25ebc8",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-full-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
+        },
+        "aroma": {
+          "name": "open_gapps-arm64-10.0-aroma-20200116-BETA.zip",
+          "date": 1579124366,
+          "filedate": "20200116",
+          "size": "1.3GB",
+          "md5": "c832c393ea39280a61b5caa937ffba9c",
+          "sha1": "ba96673dc9c57613fe73908932dabb24506b3a1c",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/beta/20200116/open_gapps-arm64-10.0-aroma-20200116-BETA.zip?r=&ts={time}&use_mirror=autoselect"
         }
       },
       "beta": true
