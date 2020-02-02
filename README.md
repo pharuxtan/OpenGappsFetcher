@@ -20,6 +20,7 @@ A script automatically fetch OpenGapps from SourceForge
                     |-- sha1
                     |-- download
             |-- state
+            |-- date
 ```
 
 ## Telegram Group
