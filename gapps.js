@@ -1,125 +1,73 @@
 setInterval(async function() {
-  const fetch = require('node-fetch');
-  const HTMLParser = require('node-html-parser');
-  const fs = require('fs');
+  const fetch = require("node-fetch"), fs = require("fs");
+  let platform = Object.keys(JSON.parse((await fetch("https://sourceforge.net/projects/opengapps/files/").then(res => res.text())).split("net.sf.files = ")[1].split(";")[0])).filter(n => n !== "README.md");
   let gapps = {};
-  let arch = await fetch(`https://sourceforge.net/projects/opengapps/files/`).then(res => res.text());
-  let archs = Object.keys(JSON.parse(arch.split("net.sf.files = ")[1].split(";")[0])).reverse().filter(n => n.indexOf(".") === -1);
-  for (let a = 0; a < archs.length; a++) {
-    let ar = a;
-    gapps[archs[ar]] = {};
-    let date = await fetch(`https://sourceforge.net/projects/opengapps/files/${archs[ar]}/`).then(res => res.text());
-    let dates = Object.keys(JSON.parse(date.split("net.sf.files = ")[1].split(";")[0])).reverse();
-    let time;
-    for (var i = 0; i < dates.length; i++) {
-      let test = dates[i];
-      if (test === "beta") {
-        let dates = await fetch(`https://sourceforge.net/projects/opengapps/files/${archs[ar]}/beta/`).then(res => res.text());
-        let daterootd = HTMLParser.parse(dates);
-        let timed = daterootd.querySelector('#files_list').childNodes[11].childNodes.filter(n => n.nodeType !== 3)[0].rawAttrs.split('"')[1];
-        let file = await fetch(`https://sourceforge.net/projects/opengapps/files/${archs[ar]}/beta/${timed}/`).then(res => res.text());
-        let fileroot = HTMLParser.parse(file);
-        let files = fileroot.querySelector('#files_list').childNodes[11].childNodes.filter(n => n.nodeType !== 3).map(n => n.rawAttrs.split('"')[1]);
-        let infos = JSON.parse(file.split("net.sf.files = ")[1].split(";")[0]);
-        for (var f = 0; f < files.length; f++) {
-          let sel = files[f];
-          if (sel !== undefined && sel.indexOf(".txt") === -1 && sel.indexOf(".md5") === -1) {
-            let version = sel.split("-")[2];
-            let variant = sel.split("-")[3];
-            let info = infos[sel];
-            if (gapps[archs[ar]][version] === undefined) {
-              gapps[archs[ar]][version] = {"variant": [],"downloads":{},"beta": true};
-            }
-            if (!gapps[archs[ar]][version]["variant"].includes(variant)) {
-              gapps[archs[ar]][version]["variant"].push(variant);
-              let gfile = fileroot.querySelector('#files_list').childNodes[11].childNodes.find(n => n.rawAttrs === `title="${sel}" class="file "`).childNodes;
-              let download;
-              if(infos[`${sel}.md5`] !== undefined){
-                download = {
-                  "name": sel,
-                  "date": Math.floor(new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000),
-                  "filedate": timed,
-                  "size": gfile.find(n => n.rawAttrs === `headers="files_size_h" class="opt"`).childNodes[0].rawText.replace(/\s/g, ""),
-                  "md5file": {
-                    "name": `${sel}.md5`,
-                    "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/beta/${timed}/${sel}.md5?r=&ts={time}&use_mirror=autoselect`
-                  },
-                  "md5": info.md5,
-                  "sha1": info.sha1,
-                  "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/beta/${timed}/${sel}?r=&ts={time}&use_mirror=autoselect`
-                }
-              } else {
-                download = {
-                  "name": sel,
-                  "date": Math.floor(new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000),
-                  "filedate": timed,
-                  "size": gfile.find(n => n.rawAttrs === `headers="files_size_h" class="opt"`).childNodes[0].rawText.replace(/\s/g, ""),
-                  "md5": info.md5,
-                  "sha1": info.sha1,
-                  "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/beta/${timed}/${sel}?r=&ts={time}&use_mirror=autoselect`
-                }
-              }
-              gapps[archs[ar]][version]["downloads"][variant] = download;
-            }
-          }
-        }
+  for(var a=0; a<platform.length; a++){
+    gapps[platform[a]] = {};
+    let date = Object.keys(JSON.parse((await fetch(`https://sourceforge.net/projects/opengapps/files/${platform[a]}`).then(res => res.text())).split("net.sf.files = ")[1].split(";")[0])).filter(n => n !== "stable" && n !== "test" && n !== "beta").slice(-1)[0];
+    let filessf = JSON.parse((await fetch(`https://sourceforge.net/projects/opengapps/files/${platform[a]}/${date}`).then(res => res.text())).split("net.sf.files = ")[1].split(";")[0]);
+    let files = Object.keys(filessf).filter(n => n.endsWith(".zip")).sort((a,b) => parseFloat(b.split("-")[2]) - parseFloat(a.split("-")[2]));
+    for(var f=0; f<files.length; f++){
+      let file = files[f];
+      let ver = file.split("-")[2];
+      let variant = file.split("-")[3];
+      file = filessf[file];
+      if(gapps[platform[a]][ver] == undefined) gapps[platform[a]][ver] = {variant: [],downloads: {},state: []};
+      gapps[platform[a]][ver]["variant"].push(variant);
+      if(!gapps[platform[a]][ver]["state"].includes("stable")) gapps[platform[a]][ver]["state"].push("stable");
+      let head = await fetch((await handleSF(file.download_url))[0], {method: "HEAD"});
+      gapps[platform[a]][ver]["downloads"][variant] = {
+        name: file.name,
+        date: date,
+        size: parseInt(head.headers.get("content-length")),
+        md5: file.md5,
+        sha1: file.sha1,
+        state: "stable",
+        download: `https://downloads.sourceforge.net/project/opengapps/${platform[a]}/${date}/${file.name}?r=&ts={time}&use_mirror=autoselect`
       }
-    }
-    for (var i = 0; i < dates.length; i++) {
-      let test = dates[i];
-      if (test !== "test" && test !== "beta" && test !== undefined) {
-        time = test;
-        i = dates.length;
-      }
-    }
-    let file = await fetch(`https://sourceforge.net/projects/opengapps/files/${archs[ar]}/${time}/`).then(res => res.text());
-    let fileroot = HTMLParser.parse(file);
-    let files = Object.keys(JSON.parse(file.split("net.sf.files = ")[1].split(";")[0])).reverse();
-    let infos = JSON.parse(file.split("net.sf.files = ")[1].split(";")[0]);
-    for (var f = 0; f < files.length; f++) {
-      let sel = files[f];
-      if (sel !== undefined && sel.indexOf(".txt") === -1 && sel.indexOf(".md5") === -1) {
-        let version = sel.split("-")[2]
-        let variant = sel.split("-")[3]
-        let info = infos[sel];
-        if (gapps[archs[ar]][version] === undefined) {
-          gapps[archs[ar]][version] = {"variant": [],"downloads":{},"beta": false};
-        } else if(gapps[archs[ar]][version]["beta"]){
-          gapps[archs[ar]][version] = {"variant": [],"downloads":{},"beta": false};
-        }
-        if (!gapps[archs[ar]][version]["variant"].includes(variant)) {
-          gapps[archs[ar]][version]["variant"].push(variant);
-          let gfile = fileroot.querySelector('#files_list').childNodes[11].childNodes.find(n => n.rawAttrs === `title="${sel}" class="file "`).childNodes;
-          let download;
-          if(infos[`${sel}.md5`] !== undefined){
-            download = {
-              "name": sel,
-              "date": Math.floor(new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000),
-              "filedate": time,
-              "size": gfile.find(n => n.rawAttrs === `headers="files_size_h" class="opt"`).childNodes[0].rawText.replace(/\s/g, ""),
-              "md5file": {
-                "name": `${sel}.md5`,
-                "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/${time}/${sel}.md5?r=&ts={time}&use_mirror=autoselect`
-              },
-              "md5": info.md5,
-              "sha1": info.sha1,
-              "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/${time}/${sel}?r=&ts={time}&use_mirror=autoselect`
-            }
-          } else {
-            download = {
-              "name": sel,
-              "date": Math.floor(new Date(gfile.find(n => n.rawAttrs === 'headers="files_date_h" class="opt"').childNodes[0].rawAttrs.split('"')[1]).getTime()/1000),
-              "filedate": time,
-              "size": gfile.find(n => n.rawAttrs === `headers="files_size_h" class="opt"`).childNodes[0].rawText.replace(/\s/g, ""),
-              "md5": info.md5,
-              "sha1": info.sha1,
-              "download": `https://downloads.sourceforge.net/project/opengapps/${archs[ar]}/${time}/${sel}?r=&ts={time}&use_mirror=autoselect`
-            }
-          }
-          gapps[archs[ar]][version]["downloads"][variant] = download;
+      if(filessf[file.name + ".md5"] !== undefined){
+        gapps[platform[a]][ver]["downloads"][variant]["md5file"] = {
+          name: file.name + ".md5",
+          download: `https://downloads.sourceforge.net/project/opengapps/${platform[a]}/${date}/${file.name + ".md5"}?r=&ts={time}&use_mirror=autoselect`
         }
       }
     }
   }
-  fs.writeFileSync('./gapps.json', JSON.stringify(gapps, null, 2), function(err) {if (err) throw err})
+  fs.writeFileSync("./gapps.json", JSON.stringify(gapps, null, 2), "utf8");
+  async function handleSF(link) {
+    return new Promise((resolve, reject) => {
+      let links = [];
+      var matches;
+
+      const request = require("request"), JSDOM = require("jsdom");
+
+      matches = link.match(/\bhttps?:\/\/\S+/gi);
+
+      var filteredPath = matches[0].replace("https://download.sourceforge.net", "");
+      filteredPath = filteredPath.replace("https://downloads.sourceforge.net", "");
+      filteredPath = filteredPath.replace("/files", "");
+      filteredPath = filteredPath.replace("/projects/", "");
+      filteredPath = filteredPath.replace("/project/", "");
+      filteredPath = filteredPath.replace("https://sourceforge.net", "");
+      filteredPath = filteredPath.replace("/download", "");
+
+      var projectname = matches[0].split("/")[4];
+
+      filteredPath = filteredPath.replace(projectname, "");
+
+      var mirrorsUrl = "https://sourceforge.net/settings/mirror_choices?projectname=" + projectname + "&filename=" + filteredPath;
+
+      request.get(mirrorsUrl, function (error, response, body) {
+        var dom = new JSDOM.JSDOM(body);
+        var mirrors = dom.window.document.querySelectorAll("#mirrorList li");
+        for (var i = 0; i < mirrors.length; i++) {
+          if (i % 2) {
+            var mirrorName = mirrors[i].id;
+            links.push("https://" + mirrorName + ".dl.sourceforge.net/project/" + projectname + filteredPath);
+          }
+        }
+        resolve(links);
+      });
+    });
+  }
 }, 43200000)
