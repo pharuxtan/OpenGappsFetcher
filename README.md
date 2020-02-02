@@ -11,7 +11,7 @@ A script automatically fetch OpenGapps from SourceForge
                 |-- variant
                     |-- name
                     |-- date
-                    |-- filedate
+                    |-- state
                     |-- size
                     |-- md5
                     |-- md5file
@@ -19,7 +19,7 @@ A script automatically fetch OpenGapps from SourceForge
                         |-- download
                     |-- sha1
                     |-- download
-            |-- beta: boolean
+            |-- state
 ```
 
 ## Telegram Group
