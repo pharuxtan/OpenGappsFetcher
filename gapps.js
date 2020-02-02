@@ -12,9 +12,10 @@ setInterval(async function() {
       let ver = file.split("-")[2];
       let variant = file.split("-")[3];
       file = filessf[file];
-      if(gapps[platform[a]][ver] == undefined) gapps[platform[a]][ver] = {variant: [],downloads: {},state: []};
+      if(gapps[platform[a]][ver] == undefined) gapps[platform[a]][ver] = {variant: [],downloads: {},state: [], date: []};
       gapps[platform[a]][ver]["variant"].push(variant);
       if(!gapps[platform[a]][ver]["state"].includes("stable")) gapps[platform[a]][ver]["state"].push("stable");
+      if(!gapps[platform[a]][ver]["date"].includes(date)) gapps[platform[a]][ver]["date"].push(date);
       let head = await fetch((await handleSF(file.download_url))[0], {method: "HEAD"});
       gapps[platform[a]][ver]["downloads"][variant] = {
         name: file.name,
