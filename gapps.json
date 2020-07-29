@@ -1,840 +1,4 @@
 {
-  "arm": {
-    "10.0": {
-      "variant": [
-        "mini",
-        "micro",
-        "pico",
-        "nano"
-      ],
-      "downloads": {
-        "mini": {
-          "name": "open_gapps-arm-10.0-mini-20200728.zip",
-          "date": "20200728",
-          "size": 438826397,
-          "md5": "474fcb3026c65db5a2e6a39bb3c695cd",
-          "sha1": "3466d3d9ccb9d7e85d42438e7a138ab0123fc7c8",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-10.0-mini-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-10.0-mini-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-10.0-mini-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "micro": {
-          "name": "open_gapps-arm-10.0-micro-20200728.zip",
-          "date": "20200728",
-          "size": 256509371,
-          "md5": "5f8af078d67885c99647265f25caa13f",
-          "sha1": "1848ae7b447352dbeef6bba7d75b8836e5cfe22f",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-10.0-micro-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-10.0-micro-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-10.0-micro-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "pico": {
-          "name": "open_gapps-arm-10.0-pico-20200728.zip",
-          "date": "20200728",
-          "size": 97458991,
-          "md5": "0536be57e89bf74d7a207723f12a1035",
-          "sha1": "dce28bc79bf0a0fce0263e68a55c211afec5dbb9",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-10.0-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-10.0-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-10.0-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "nano": {
-          "name": "open_gapps-arm-10.0-nano-20200728.zip",
-          "date": "20200728",
-          "size": 193397622,
-          "md5": "b1fc0b418972eb07e67af79dac4941f4",
-          "sha1": "97f217fb22f81b1eb4a253fc238e31820bc1fe7d",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-10.0-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-10.0-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-10.0-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        }
-      },
-      "state": [
-        "stable"
-      ],
-      "date": [
-        "20200728"
-      ]
-    },
-    "9.0": {
-      "variant": [
-        "aroma",
-        "full",
-        "super",
-        "mini",
-        "micro",
-        "stock",
-        "pico",
-        "nano",
-        "tvstock"
-      ],
-      "downloads": {
-        "aroma": {
-          "name": "open_gapps-arm-9.0-aroma-20200728.zip",
-          "date": "20200728",
-          "size": 1506235564,
-          "md5": "fcf499af5bea100f1453b066649e3be3",
-          "sha1": "cd0f830d5233568549d0ceb6809edf0ac582e866",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-aroma-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-9.0-aroma-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-aroma-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "full": {
-          "name": "open_gapps-arm-9.0-full-20200728.zip",
-          "date": "20200728",
-          "size": 571575274,
-          "md5": "3e87cf75710525f5f1857f137a9bafc8",
-          "sha1": "b6bc9be209968f0bd5f344febd7f98b3576856d8",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-full-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-9.0-full-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-full-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "super": {
-          "name": "open_gapps-arm-9.0-super-20200728.zip",
-          "date": "20200728",
-          "size": 1047459091,
-          "md5": "91f110115fb636280aafa2075aecab15",
-          "sha1": "f514d67c36dd7635802e64efe9915f6e64bfda8e",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-super-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-9.0-super-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-super-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "mini": {
-          "name": "open_gapps-arm-9.0-mini-20200728.zip",
-          "date": "20200728",
-          "size": 431685057,
-          "md5": "7cb762959c4ada92f5953d43689882aa",
-          "sha1": "74572546ce172f2f8c239e7978c3ff8d734e3aca",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-mini-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-9.0-mini-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-mini-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "micro": {
-          "name": "open_gapps-arm-9.0-micro-20200728.zip",
-          "date": "20200728",
-          "size": 249241899,
-          "md5": "477e999a0029f6e894b8813218931fc4",
-          "sha1": "0c9c11f43959b0971dc381e56fd9258e9771db3b",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-micro-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-9.0-micro-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-micro-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "stock": {
-          "name": "open_gapps-arm-9.0-stock-20200728.zip",
-          "date": "20200728",
-          "size": 781111308,
-          "md5": "5d9e421b5816923969b723f0b4464567",
-          "sha1": "3f1e297db2faf376b1e8df4798762bdec2fc55a2",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-stock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-9.0-stock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-stock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "pico": {
-          "name": "open_gapps-arm-9.0-pico-20200728.zip",
-          "date": "20200728",
-          "size": 101187325,
-          "md5": "15a35cd3871a65e21180dae5255e01c0",
-          "sha1": "33f9fe866df65f65db3a89e83eb36e32cd1c4c6c",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-9.0-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "nano": {
-          "name": "open_gapps-arm-9.0-nano-20200728.zip",
-          "date": "20200728",
-          "size": 196111724,
-          "md5": "9999ef2192361270098beceb30d97332",
-          "sha1": "d0d5b8892fab032caf7a7a84e1e36e118fdbf237",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-9.0-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "tvstock": {
-          "name": "open_gapps-arm-9.0-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 211516968,
-          "md5": "29b2b4cacfae20195a0c95786b07b60a",
-          "sha1": "fe6e21abe5e06889bb53ef351a021fd4f6e6df15",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-9.0-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-9.0-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        }
-      },
-      "state": [
-        "stable"
-      ],
-      "date": [
-        "20200728"
-      ]
-    },
-    "8.1": {
-      "variant": [
-        "pico",
-        "nano",
-        "tvstock",
-        "stock",
-        "aroma",
-        "micro",
-        "full",
-        "super",
-        "mini"
-      ],
-      "downloads": {
-        "pico": {
-          "name": "open_gapps-arm-8.1-pico-20200728.zip",
-          "date": "20200728",
-          "size": 153778642,
-          "md5": "007169872da6b4024f8162f14173fb5d",
-          "sha1": "0bb2fc3c87dcb503322b6a37a3397b461123178d",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-8.1-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "nano": {
-          "name": "open_gapps-arm-8.1-nano-20200728.zip",
-          "date": "20200728",
-          "size": 234576006,
-          "md5": "b6a6a723a4e7f4ae0f7dfc11e2dc8260",
-          "sha1": "0f6e24401c0253ca52bf2d3e7d2b515700f07dc6",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-8.1-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "tvstock": {
-          "name": "open_gapps-arm-8.1-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 214952321,
-          "md5": "5b66598570a8a800da5384f026c47d82",
-          "sha1": "9e9f7ec9dba83c8a491768abac39f16d483d6c78",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-8.1-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "stock": {
-          "name": "open_gapps-arm-8.1-stock-20200728.zip",
-          "date": "20200728",
-          "size": 817952641,
-          "md5": "617c011ea49d26a2e9b950d10e504ec3",
-          "sha1": "573f9daaf7175f6625310bff81efae603a4f9b10",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-stock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-8.1-stock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-stock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "aroma": {
-          "name": "open_gapps-arm-8.1-aroma-20200728.zip",
-          "date": "20200728",
-          "size": 1448228662,
-          "md5": "467d3ea17e6327e67e5600d47aafc278",
-          "sha1": "b0fa3f062f4ea44cc85b0c9ff34e6b568f4e33da",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-aroma-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-8.1-aroma-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-aroma-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "micro": {
-          "name": "open_gapps-arm-8.1-micro-20200728.zip",
-          "date": "20200728",
-          "size": 287231656,
-          "md5": "2781afcf2871b259b1bbd0baf6829e89",
-          "sha1": "46cded669040d88ce4d573a9b3875b73d467ac01",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-micro-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-8.1-micro-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-micro-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "full": {
-          "name": "open_gapps-arm-8.1-full-20200728.zip",
-          "date": "20200728",
-          "size": 608256920,
-          "md5": "8062855e74fd41bcda1b45590ce36681",
-          "sha1": "caf83d581d719faa9629e4200780ebd3a62cdab7",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-full-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-8.1-full-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-full-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "super": {
-          "name": "open_gapps-arm-8.1-super-20200728.zip",
-          "date": "20200728",
-          "size": 1076736375,
-          "md5": "0756017bf146fdfa53c835df3f350237",
-          "sha1": "f59cbff7b740f325d5f4b0a73e0e6c0ec0df0587",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-super-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-8.1-super-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-super-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "mini": {
-          "name": "open_gapps-arm-8.1-mini-20200728.zip",
-          "date": "20200728",
-          "size": 469562323,
-          "md5": "f2d3b1f7b14a2b8c72136d109ac1f235",
-          "sha1": "254f2aa194c075635dceef5f218c7c22dc5b2cc6",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-mini-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-8.1-mini-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.1-mini-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        }
-      },
-      "state": [
-        "stable"
-      ],
-      "date": [
-        "20200728"
-      ]
-    },
-    "8.0": {
-      "variant": [
-        "tvstock"
-      ],
-      "downloads": {
-        "tvstock": {
-          "name": "open_gapps-arm-8.0-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 214934320,
-          "md5": "81ebbb73ccf958201dd11d8db786b7ad",
-          "sha1": "a2ea081d14a3eebaf134152a37f3e3ada097bd81",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.0-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-8.0-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-8.0-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        }
-      },
-      "state": [
-        "stable"
-      ],
-      "date": [
-        "20200728"
-      ]
-    },
-    "7.1": {
-      "variant": [
-        "mini",
-        "tvstock",
-        "stock",
-        "nano",
-        "micro",
-        "full",
-        "aroma",
-        "super",
-        "pico"
-      ],
-      "downloads": {
-        "mini": {
-          "name": "open_gapps-arm-7.1-mini-20200728.zip",
-          "date": "20200728",
-          "size": 471735714,
-          "md5": "d5406d9cab9f94a4a615948a6d60d924",
-          "sha1": "8d4b8d8719db8dfdc504cf8f6a6252c96b00bb18",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-mini-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.1-mini-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-mini-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "tvstock": {
-          "name": "open_gapps-arm-7.1-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 199907261,
-          "md5": "7fcf3c6ce989a5c1cda2951aac620b2e",
-          "sha1": "ccb3f8765c631ac9f722fc65ddb9da287190713c",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.1-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "stock": {
-          "name": "open_gapps-arm-7.1-stock-20200728.zip",
-          "date": "20200728",
-          "size": 819347510,
-          "md5": "33f735c0867681682a96c173ffd571c4",
-          "sha1": "28cfd6d026ee6c8b7e25ed9237a4c87fb55d0ae8",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-stock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.1-stock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-stock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "nano": {
-          "name": "open_gapps-arm-7.1-nano-20200728.zip",
-          "date": "20200728",
-          "size": 236441362,
-          "md5": "10f36baa11d2cc3a10bfbee809890e17",
-          "sha1": "f11b34ae0a6d74f18b503468c4afa7e0d3e87195",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.1-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "micro": {
-          "name": "open_gapps-arm-7.1-micro-20200728.zip",
-          "date": "20200728",
-          "size": 289423719,
-          "md5": "47aaeaaa66d44e9ae24ad28a0ba90e16",
-          "sha1": "2e2037bda43139a7997d9b3bab6a7bbbcca9eaa7",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-micro-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.1-micro-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-micro-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "full": {
-          "name": "open_gapps-arm-7.1-full-20200728.zip",
-          "date": "20200728",
-          "size": 610430313,
-          "md5": "9f95890e7da6c30898f6f104d3192ceb",
-          "sha1": "1291b90aca0ee5ac0d6eedf60907a5fc594b2f61",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-full-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.1-full-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-full-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "aroma": {
-          "name": "open_gapps-arm-7.1-aroma-20200728.zip",
-          "date": "20200728",
-          "size": 1460248466,
-          "md5": "4bbbe56f1a98c0b7a91bf32a01041e9d",
-          "sha1": "e65d47de03036dd2c9dbf9d0bcb02d38f6cb48b8",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-aroma-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.1-aroma-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-aroma-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "super": {
-          "name": "open_gapps-arm-7.1-super-20200728.zip",
-          "date": "20200728",
-          "size": 1078131255,
-          "md5": "81ce39ac5b9ddbc797fa8d11cf9dee91",
-          "sha1": "926af4593fd2250523ae745f6e56cd24a3475014",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-super-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.1-super-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-super-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "pico": {
-          "name": "open_gapps-arm-7.1-pico-20200728.zip",
-          "date": "20200728",
-          "size": 155920846,
-          "md5": "2f0130d149dc5ac0ccb8c14ec939bdf9",
-          "sha1": "382b8c57f4fb8fa7f8995d33978bd6e8fed66abf",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.1-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.1-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        }
-      },
-      "state": [
-        "stable"
-      ],
-      "date": [
-        "20200728"
-      ]
-    },
-    "7.0": {
-      "variant": [
-        "aroma",
-        "nano",
-        "tvstock",
-        "stock",
-        "pico"
-      ],
-      "downloads": {
-        "aroma": {
-          "name": "open_gapps-arm-7.0-aroma-20200728.zip",
-          "date": "20200728",
-          "size": 1461970479,
-          "md5": "31f0839f6a54e33eb275eeae0627887d",
-          "sha1": "332777e48f131ba1a0f817b7aa371fe5cf0723c0",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.0-aroma-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.0-aroma-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.0-aroma-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "nano": {
-          "name": "open_gapps-arm-7.0-nano-20200728.zip",
-          "date": "20200728",
-          "size": 238982792,
-          "md5": "bff47f87bb4ae19418cff2e8e1d41f52",
-          "sha1": "4c165cba26c6b88adf81e916fa34c11108d9071c",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.0-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.0-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.0-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "tvstock": {
-          "name": "open_gapps-arm-7.0-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 199859257,
-          "md5": "43825434b47e88dae0acae1c5a194ff2",
-          "sha1": "7282dcff44a61c05cfdcdd8864287955fd5888cb",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.0-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.0-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.0-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "stock": {
-          "name": "open_gapps-arm-7.0-stock-20200728.zip",
-          "date": "20200728",
-          "size": 821133853,
-          "md5": "a4abaa12e69740b9e9b677698e7d4c13",
-          "sha1": "7aa1277b1b6c177edf0972e7b1e89356145a4651",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.0-stock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.0-stock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.0-stock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "pico": {
-          "name": "open_gapps-arm-7.0-pico-20200728.zip",
-          "date": "20200728",
-          "size": 158628504,
-          "md5": "89cad9d1943aeee4bd4e789e66e029b7",
-          "sha1": "e9413c1cd2ef1b5ce9fdeb1a9dbfab726f4a26b3",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.0-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-7.0-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-7.0-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        }
-      },
-      "state": [
-        "stable"
-      ],
-      "date": [
-        "20200728"
-      ]
-    },
-    "6.0": {
-      "variant": [
-        "stock",
-        "tvstock",
-        "pico",
-        "nano",
-        "aroma"
-      ],
-      "downloads": {
-        "stock": {
-          "name": "open_gapps-arm-6.0-stock-20200728.zip",
-          "date": "20200728",
-          "size": 803646679,
-          "md5": "69072e979ae5472bca3602d91d1ec342",
-          "sha1": "4fadc5023a5133a0b2dd15a11383a81633b452a4",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-6.0-stock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-6.0-stock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-6.0-stock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "tvstock": {
-          "name": "open_gapps-arm-6.0-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 200400700,
-          "md5": "47d3e8b3f409afbbd25f7d242c2a80fd",
-          "sha1": "5cb49c56e01990986d0fe049c3b618a4fb024ccb",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-6.0-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-6.0-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-6.0-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "pico": {
-          "name": "open_gapps-arm-6.0-pico-20200728.zip",
-          "date": "20200728",
-          "size": 154920495,
-          "md5": "cf5021870f25059eb2682af50cd0e826",
-          "sha1": "447dcc9d40eb7a4cac6bdcbce3aca140dd09bc6a",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-6.0-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-6.0-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-6.0-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "nano": {
-          "name": "open_gapps-arm-6.0-nano-20200728.zip",
-          "date": "20200728",
-          "size": 235274786,
-          "md5": "743e5ace2c92aad681dff67e94f011a5",
-          "sha1": "c191eaa25c7015a7878e46c8e539d513d45d8e4e",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-6.0-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-6.0-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-6.0-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "aroma": {
-          "name": "open_gapps-arm-6.0-aroma-20200728.zip",
-          "date": "20200728",
-          "size": 1444549728,
-          "md5": "692a86bad7b7d017ee37392052e48d2f",
-          "sha1": "8f5575bb6e295a63278d38a25a509e8d644a6872",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-6.0-aroma-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-6.0-aroma-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-6.0-aroma-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        }
-      },
-      "state": [
-        "stable"
-      ],
-      "date": [
-        "20200728"
-      ]
-    },
-    "5.1": {
-      "variant": [
-        "nano",
-        "tvstock",
-        "pico",
-        "stock",
-        "aroma"
-      ],
-      "downloads": {
-        "nano": {
-          "name": "open_gapps-arm-5.1-nano-20200728.zip",
-          "date": "20200728",
-          "size": 210284186,
-          "md5": "dc01af42b19346e7970e7ce10a72248e",
-          "sha1": "c0d78bab4fd3c3af630dac8591524bffcad78503",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.1-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-5.1-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.1-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "tvstock": {
-          "name": "open_gapps-arm-5.1-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 215017374,
-          "md5": "3ed76222a20f5ed9f73fa5d7ebe3cbfe",
-          "sha1": "f32c4c5b9c6181a56278bfa56bf3cbf1cf34847c",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.1-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-5.1-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.1-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "pico": {
-          "name": "open_gapps-arm-5.1-pico-20200728.zip",
-          "date": "20200728",
-          "size": 129923606,
-          "md5": "b3766585543c5fedb8f03e552c284887",
-          "sha1": "b1b692e5529c9a9529af0e1eee157a4902a47dee",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.1-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-5.1-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.1-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "stock": {
-          "name": "open_gapps-arm-5.1-stock-20200728.zip",
-          "date": "20200728",
-          "size": 667084766,
-          "md5": "577c81fa276bd42ab4cdf01d0c23d9cd",
-          "sha1": "9d31421b12ef3d9d193c646b66d440c53d78aadb",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.1-stock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-5.1-stock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.1-stock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "aroma": {
-          "name": "open_gapps-arm-5.1-aroma-20200728.zip",
-          "date": "20200728",
-          "size": 1191682812,
-          "md5": "1b97cb996823b18220431ec9cf8dd649",
-          "sha1": "52ad0f55dc800bff803a4abdd8a7f250a7b6ceae",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.1-aroma-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-5.1-aroma-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.1-aroma-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        }
-      },
-      "state": [
-        "stable"
-      ],
-      "date": [
-        "20200728"
-      ]
-    },
-    "5.0": {
-      "variant": [
-        "pico",
-        "nano"
-      ],
-      "downloads": {
-        "pico": {
-          "name": "open_gapps-arm-5.0-pico-20200728.zip",
-          "date": "20200728",
-          "size": 130852605,
-          "md5": "527c116c1692ccd4b2f50034d864663b",
-          "sha1": "5656ceb9f6bd2ddd496d05ec146c346a15756399",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.0-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-5.0-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.0-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "nano": {
-          "name": "open_gapps-arm-5.0-nano-20200728.zip",
-          "date": "20200728",
-          "size": 211213192,
-          "md5": "2e2f52c40fd5585a349b57330c7b5da3",
-          "sha1": "42c8daf7249b5db0eaa5459c7b1be71f1802901e",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.0-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-5.0-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-5.0-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        }
-      },
-      "state": [
-        "stable"
-      ],
-      "date": [
-        "20200728"
-      ]
-    },
-    "4.4": {
-      "variant": [
-        "pico",
-        "nano"
-      ],
-      "downloads": {
-        "pico": {
-          "name": "open_gapps-arm-4.4-pico-20200728.zip",
-          "date": "20200728",
-          "size": 125607917,
-          "md5": "5b25854e5a72e7eafe822a4c2ff75083",
-          "sha1": "3e1257466b47401821968c4a45066e96a1359364",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-4.4-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-4.4-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-4.4-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "nano": {
-          "name": "open_gapps-arm-4.4-nano-20200728.zip",
-          "date": "20200728",
-          "size": 187736469,
-          "md5": "f384001c1404c69f1878514b75e3869f",
-          "sha1": "56b202a3d19a96dc76f5add3bc18a134da03beb9",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-4.4-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm-4.4-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200728/open_gapps-arm-4.4-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        }
-      },
-      "state": [
-        "stable"
-      ],
-      "date": [
-        "20200728"
-      ]
-    }
-  },
   "x86_64": {
     "10.0": {
       "variant": [
@@ -2302,132 +1466,132 @@
   "arm64": {
     "10.0": {
       "variant": [
-        "mini",
-        "stock",
         "super",
-        "tvstock",
+        "stock",
         "aroma",
         "pico",
-        "nano",
+        "full",
         "micro",
-        "full"
+        "nano",
+        "mini",
+        "tvstock"
       ],
       "downloads": {
-        "mini": {
-          "name": "open_gapps-arm64-10.0-mini-20200728.zip",
-          "date": "20200728",
-          "size": 473462541,
-          "md5": "1ae0e7e15a270a6a929a0196a9d67dce",
-          "sha1": "45cbf706cfb1dbeb58b7049ea81d26cf66668cb8",
+        "super": {
+          "name": "open_gapps-arm64-10.0-super-20200729.zip",
+          "date": "20200729",
+          "size": 1159058667,
+          "md5": "6a495e79a097cfb1ba4f2fc8222db14b",
+          "sha1": "83aa0657a71ef79331e6e822a5f46f3779680548",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-mini-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-super-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-10.0-mini-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-mini-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-10.0-super-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-super-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "stock": {
-          "name": "open_gapps-arm64-10.0-stock-20200728.zip",
-          "date": "20200728",
-          "size": 905189363,
-          "md5": "d674e35ca36a4704ccdd358f77f62edf",
-          "sha1": "cbaecb0e6054da6214d43fc68ad8e3aeadedb3c8",
+          "name": "open_gapps-arm64-10.0-stock-20200729.zip",
+          "date": "20200729",
+          "size": 895435260,
+          "md5": "bc159d58c89ac5d94c58bc2bbb6e0b0f",
+          "sha1": "b9adbbcbf9869969a433f1899f0def2560f88fe1",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-stock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-stock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-10.0-stock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-stock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "super": {
-          "name": "open_gapps-arm64-10.0-super-20200728.zip",
-          "date": "20200728",
-          "size": 1168812770,
-          "md5": "cdb3a1fe9ede94b789f5b0421addad2a",
-          "sha1": "245252fb225a49ff390a66bf3cc80d1df1002655",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-super-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-10.0-super-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-super-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "tvstock": {
-          "name": "open_gapps-arm64-10.0-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 206953675,
-          "md5": "235e5e84ef569f3085d141d82b747430",
-          "sha1": "4d2e8ce36a15e3d147be04d6128d39239a33ccbd",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-10.0-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-10.0-stock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-stock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "aroma": {
-          "name": "open_gapps-arm64-10.0-aroma-20200728.zip",
-          "date": "20200728",
-          "size": 1570220559,
-          "md5": "e6972d4415716eeb7e8981104c19bda6",
-          "sha1": "d9525503d0a4d4354889d56d4d80ce9a40dd41cd",
+          "name": "open_gapps-arm64-10.0-aroma-20200729.zip",
+          "date": "20200729",
+          "size": 1559162394,
+          "md5": "7b2a62e875ea71e57452cfafed578995",
+          "sha1": "7d270103bd64f08d15286ff861eb77dc565260ef",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-aroma-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-aroma-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-10.0-aroma-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-aroma-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-10.0-aroma-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-aroma-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "pico": {
-          "name": "open_gapps-arm64-10.0-pico-20200728.zip",
-          "date": "20200728",
-          "size": 97763068,
-          "md5": "a7f4bad5fd6a9640ec98ae64188e8ec5",
-          "sha1": "9d36865ac4ac3f11cf4efdb651f3c43e6df46f3f",
+          "name": "open_gapps-arm64-10.0-pico-20200729.zip",
+          "date": "20200729",
+          "size": 97763070,
+          "md5": "a23e589db54b32f2a6fb5efe9160c448",
+          "sha1": "6b39fa1a9f88e52239a9b86cf26f71ea58d06d4a",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-10.0-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "nano": {
-          "name": "open_gapps-arm64-10.0-nano-20200728.zip",
-          "date": "20200728",
-          "size": 188652947,
-          "md5": "dc18c03d2b4e696f4f061709e2493ad5",
-          "sha1": "f025517fb5127f27dd55c7e56573c3f99a526787",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-10.0-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "micro": {
-          "name": "open_gapps-arm64-10.0-micro-20200728.zip",
-          "date": "20200728",
-          "size": 252272514,
-          "md5": "eb689e25b3560bc028537de670fba4a0",
-          "sha1": "3e5920d67f2de6836ec2f8a33805387db231eb50",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-micro-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-10.0-micro-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-micro-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-10.0-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "full": {
-          "name": "open_gapps-arm64-10.0-full-20200728.zip",
-          "date": "20200728",
-          "size": 671594721,
-          "md5": "349ef95792353fb0442d491b4b618024",
-          "sha1": "65d03bfc556424cc4dd8c69883baccff3efe73b8",
+          "name": "open_gapps-arm64-10.0-full-20200729.zip",
+          "date": "20200729",
+          "size": 670740033,
+          "md5": "5a1f3e6e46ae6d1ff04b4fb7d12a3d33",
+          "sha1": "a5851d165cbaa558521363eed5cbf0710a2bfa0b",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-full-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-full-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-10.0-full-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-10.0-full-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-10.0-full-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-full-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "micro": {
+          "name": "open_gapps-arm64-10.0-micro-20200729.zip",
+          "date": "20200729",
+          "size": 252272516,
+          "md5": "8ae555ad7ae85f45fdeb9576348e5f93",
+          "sha1": "d42e684f55f9873333af0271719768efef2b4f3a",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-micro-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-10.0-micro-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-micro-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "nano": {
+          "name": "open_gapps-arm64-10.0-nano-20200729.zip",
+          "date": "20200729",
+          "size": 188652946,
+          "md5": "fe13fa6b9234847a47493b0aab611a2e",
+          "sha1": "94f379f2e5dab7d46db52e59daa2a529e2a5c5c8",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-10.0-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "mini": {
+          "name": "open_gapps-arm64-10.0-mini-20200729.zip",
+          "date": "20200729",
+          "size": 473461674,
+          "md5": "6a40c5e5fb2f7ecae45b01a62fcf8068",
+          "sha1": "b2120c17fa97719388c82b36afb00a6392431cf3",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-mini-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-10.0-mini-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-mini-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "tvstock": {
+          "name": "open_gapps-arm64-10.0-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 207285497,
+          "md5": "5433e0c04585165cfba431fc675dc04c",
+          "sha1": "92e932ded1f2582892e1df0c620cb808bc7a58b8",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-10.0-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-10.0-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         }
       },
@@ -2435,137 +1599,137 @@
         "stable"
       ],
       "date": [
-        "20200728"
+        "20200729"
       ]
     },
     "9.0": {
       "variant": [
         "super",
-        "aroma",
-        "mini",
         "micro",
-        "nano",
         "tvstock",
+        "mini",
+        "nano",
+        "aroma",
+        "pico",
         "full",
-        "stock",
-        "pico"
+        "stock"
       ],
       "downloads": {
         "super": {
-          "name": "open_gapps-arm64-9.0-super-20200728.zip",
-          "date": "20200728",
-          "size": 1211095641,
-          "md5": "1e88b6a0eb3c340eae394418b20bfb7d",
-          "sha1": "196b3463dd79fed838722dd25a9004ff2885c1ff",
+          "name": "open_gapps-arm64-9.0-super-20200729.zip",
+          "date": "20200729",
+          "size": 1201341536,
+          "md5": "00715fb029165b2771b668032c7a1876",
+          "sha1": "c94baf67e796821c1a164f8a5db3066547756652",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-super-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-super-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-9.0-super-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-super-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "aroma": {
-          "name": "open_gapps-arm64-9.0-aroma-20200728.zip",
-          "date": "20200728",
-          "size": 1572842215,
-          "md5": "6ffb1acb8d5e2e07555de3469e34a4a3",
-          "sha1": "3366cf4d5c84995fdf1a2919a7a7552b21837aab",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-aroma-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-9.0-aroma-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-aroma-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "mini": {
-          "name": "open_gapps-arm64-9.0-mini-20200728.zip",
-          "date": "20200728",
-          "size": 470018832,
-          "md5": "34ed5daa42c68d08ddaa565d8fd318a7",
-          "sha1": "adbef241663843638a62161fd61ebebe8e24efb2",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-mini-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-9.0-mini-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-mini-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-9.0-super-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-super-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "micro": {
-          "name": "open_gapps-arm64-9.0-micro-20200728.zip",
-          "date": "20200728",
-          "size": 248702670,
-          "md5": "7f5c64b5e5f30a247a84bcb40c5209b9",
-          "sha1": "8037ff188cb64ed9c6096674c94dd17dc589a77b",
+          "name": "open_gapps-arm64-9.0-micro-20200729.zip",
+          "date": "20200729",
+          "size": 248702668,
+          "md5": "4a9c63b752836a217edaae37d92bd162",
+          "sha1": "5ee2b80891d7c1f20a1294a7d128409d2c504099",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-micro-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-micro-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-9.0-micro-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-micro-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "nano": {
-          "name": "open_gapps-arm64-9.0-nano-20200728.zip",
-          "date": "20200728",
-          "size": 195583301,
-          "md5": "17bda5343333d1edaa68ee6fc02d116e",
-          "sha1": "f6e5651cd99545d5d5e17a86e4b54c8be3a02cb4",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-9.0-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-9.0-micro-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-micro-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "tvstock": {
-          "name": "open_gapps-arm64-9.0-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 232206321,
-          "md5": "ef8b6e6055af8d87ae37ba5691f37c36",
-          "sha1": "1af7923066e67cb2f8d580d563e6b1333fd7e338",
+          "name": "open_gapps-arm64-9.0-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 232538143,
+          "md5": "6f2b12939335eb7f7556cbb36f723880",
+          "sha1": "a08c351381ff4447a0faa5e68ddf9837c095ace2",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-9.0-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-9.0-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
-        "full": {
-          "name": "open_gapps-arm64-9.0-full-20200728.zip",
-          "date": "20200728",
-          "size": 683589908,
-          "md5": "b21a002c47d393d34621117a69710760",
-          "sha1": "404fb56186380e4c82ec6fafa6ccb8d81bb53b24",
+        "mini": {
+          "name": "open_gapps-arm64-9.0-mini-20200729.zip",
+          "date": "20200729",
+          "size": 470017971,
+          "md5": "b922dd97587706223845cbae0862762c",
+          "sha1": "c96e62fcaf2a511e39aa87d5f2b5a67711f29853",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-full-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-mini-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-9.0-full-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-full-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-9.0-mini-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-mini-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
-        "stock": {
-          "name": "open_gapps-arm64-9.0-stock-20200728.zip",
-          "date": "20200728",
-          "size": 937213716,
-          "md5": "49a5248e7d585ddc7994224799cc7015",
-          "sha1": "d578b0b16ee0b502cdd31a6da2d3f7670a173375",
+        "nano": {
+          "name": "open_gapps-arm64-9.0-nano-20200729.zip",
+          "date": "20200729",
+          "size": 195583298,
+          "md5": "060ddd752da4a59225415c4b133c8084",
+          "sha1": "fd12a2eca6c5bb94f3c4bb4c7a7590a416a2640b",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-stock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-9.0-stock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-stock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-9.0-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "aroma": {
+          "name": "open_gapps-arm64-9.0-aroma-20200729.zip",
+          "date": "20200729",
+          "size": 1561784054,
+          "md5": "b90bda9ffa8f3e848c09b3de892d9b3c",
+          "sha1": "683610e0b9014e1bcf4dab87dd58f518dcc76fe3",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-aroma-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-9.0-aroma-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-aroma-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "pico": {
-          "name": "open_gapps-arm64-9.0-pico-20200728.zip",
-          "date": "20200728",
-          "size": 101803807,
-          "md5": "20bc3f4c94bbd76a74f5a93d8008780c",
-          "sha1": "c6a052b5cd7500b3959161c6e582124662a4be80",
+          "name": "open_gapps-arm64-9.0-pico-20200729.zip",
+          "date": "20200729",
+          "size": 101803811,
+          "md5": "4ce3516fc947f826dbd429d906a6d963",
+          "sha1": "0a70ccc232d5e915b8928b1be0dc95d2463f05bb",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-9.0-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-9.0-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-9.0-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "full": {
+          "name": "open_gapps-arm64-9.0-full-20200729.zip",
+          "date": "20200729",
+          "size": 682735220,
+          "md5": "0bcafd5ed81fbcdda74121de133ea6c6",
+          "sha1": "12d5ed9fe960e2f3679af9d98202bb2c1f111f76",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-full-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-9.0-full-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-full-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "stock": {
+          "name": "open_gapps-arm64-9.0-stock-20200729.zip",
+          "date": "20200729",
+          "size": 927459612,
+          "md5": "2a59c7af3510a5a7f3cd30132718d83b",
+          "sha1": "7adbee05521f1e9b4b003030dfef24b21f5e8785",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-stock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-9.0-stock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-9.0-stock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         }
       },
@@ -2573,137 +1737,137 @@
         "stable"
       ],
       "date": [
-        "20200728"
+        "20200729"
       ]
     },
     "8.1": {
       "variant": [
         "micro",
+        "pico",
+        "aroma",
+        "full",
+        "stock",
+        "tvstock",
         "mini",
         "super",
-        "aroma",
-        "pico",
-        "stock",
-        "nano",
-        "tvstock",
-        "full"
+        "nano"
       ],
       "downloads": {
         "micro": {
-          "name": "open_gapps-arm64-8.1-micro-20200728.zip",
-          "date": "20200728",
-          "size": 231981947,
-          "md5": "5b3bcb2e6ecab5cf59118fb7e533b9fc",
-          "sha1": "b0015fb50e52f8360b1981a8d8d663593009d52c",
+          "name": "open_gapps-arm64-8.1-micro-20200729.zip",
+          "date": "20200729",
+          "size": 231981942,
+          "md5": "758e9dba3217a9fcac3442f970e96de6",
+          "sha1": "8a918d2bcf46c3e7aba5fbabe4e5d12c8297023c",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-micro-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-micro-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-8.1-micro-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-micro-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "mini": {
-          "name": "open_gapps-arm64-8.1-mini-20200728.zip",
-          "date": "20200728",
-          "size": 453185610,
-          "md5": "d304450011ffc50d70f0eabcacbf7f61",
-          "sha1": "3ea22afbf7e822fa902879f51e142ce2954ceef7",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-mini-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-8.1-mini-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-mini-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "super": {
-          "name": "open_gapps-arm64-8.1-super-20200728.zip",
-          "date": "20200728",
-          "size": 1109312711,
-          "md5": "c9eee17de1d81a6faed24f39d30cd884",
-          "sha1": "4cd1a2126391de00f7e3703ef28ee2cf180c8a7c",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-super-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-8.1-super-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-super-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "aroma": {
-          "name": "open_gapps-arm64-8.1-aroma-20200728.zip",
-          "date": "20200728",
-          "size": 1404666271,
-          "md5": "a1f05b0076ceadc83b5e375c91ff82e5",
-          "sha1": "244e7780f77afc47dadb17de455658486ad5135c",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-aroma-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-8.1-aroma-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-aroma-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-8.1-micro-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-micro-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "pico": {
-          "name": "open_gapps-arm64-8.1-pico-20200728.zip",
-          "date": "20200728",
-          "size": 101798704,
-          "md5": "cb3857ee714b4b89372c57c80c3eef93",
-          "sha1": "894d5292a0c88b3d233771ead107e8c626a55b56",
+          "name": "open_gapps-arm64-8.1-pico-20200729.zip",
+          "date": "20200729",
+          "size": 101798701,
+          "md5": "a2f980218a560c2ff515bc099bbd8b65",
+          "sha1": "6508882cc3bcb9ba12a4ff75a5600e5c3ccb10c0",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-8.1-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-8.1-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
-        "stock": {
-          "name": "open_gapps-arm64-8.1-stock-20200728.zip",
-          "date": "20200728",
-          "size": 847139221,
-          "md5": "58e33ab5c489c507cd447a28caaa6052",
-          "sha1": "7c661b8ef8b60950cf760693c3f188a883ffa84b",
+        "aroma": {
+          "name": "open_gapps-arm64-8.1-aroma-20200729.zip",
+          "date": "20200729",
+          "size": 1393608107,
+          "md5": "42a7a102b8e77a29e696aebeda713867",
+          "sha1": "2abdc9eb0961e7d2e8aa700edce986745c4e0f6b",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-stock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-aroma-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-8.1-stock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-stock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "nano": {
-          "name": "open_gapps-arm64-8.1-nano-20200728.zip",
-          "date": "20200728",
-          "size": 179337085,
-          "md5": "33bc2a0efa1bb97d9a6c7b6ac5b28f98",
-          "sha1": "eece800185d8b1561bd663c106c4f5a22a4a4b0f",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-8.1-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "tvstock": {
-          "name": "open_gapps-arm64-8.1-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 235641657,
-          "md5": "0df36fb89253ec287531645ededa8d41",
-          "sha1": "a2bbd5e07a86848013c058daae43c79257ca1a66",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-8.1-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-8.1-aroma-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-aroma-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "full": {
-          "name": "open_gapps-arm64-8.1-full-20200728.zip",
-          "date": "20200728",
-          "size": 610285881,
-          "md5": "d1e5197d44b1139ce96f73ce05325cfa",
-          "sha1": "9f15f455bf6493413f4365e9ce2f4c408c85bef7",
+          "name": "open_gapps-arm64-8.1-full-20200729.zip",
+          "date": "20200729",
+          "size": 609431186,
+          "md5": "7c9f926dd31c12ed96538fb0df4ee92d",
+          "sha1": "cb840ca1293753bf91b76d96c299fd4e779ea3d4",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-full-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-full-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-8.1-full-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.1-full-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-8.1-full-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-full-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "stock": {
+          "name": "open_gapps-arm64-8.1-stock-20200729.zip",
+          "date": "20200729",
+          "size": 837385114,
+          "md5": "af335e65e3742fa92d9bb89ba8e5848f",
+          "sha1": "3445f707a01fc3e888cb84ecab1b75f6b0e1fee5",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-stock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-8.1-stock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-stock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "tvstock": {
+          "name": "open_gapps-arm64-8.1-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 235973480,
+          "md5": "b98c1910949f426b5ea33500ca023578",
+          "sha1": "f11c30a8eed12fd12d2c61a6979bd82bb02a0681",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-8.1-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "mini": {
+          "name": "open_gapps-arm64-8.1-mini-20200729.zip",
+          "date": "20200729",
+          "size": 453184743,
+          "md5": "db48f55dd8befd5857a22f507e1c7d54",
+          "sha1": "c4e08cbd2470f44525906332aabf2a30c953ddd7",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-mini-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-8.1-mini-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-mini-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "super": {
+          "name": "open_gapps-arm64-8.1-super-20200729.zip",
+          "date": "20200729",
+          "size": 1099558609,
+          "md5": "caede23045f67678ed15a9c253bfdf4b",
+          "sha1": "2e40d0d3d438d8f48513d25b1e0a16fee8c0aa7e",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-super-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-8.1-super-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-super-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "nano": {
+          "name": "open_gapps-arm64-8.1-nano-20200729.zip",
+          "date": "20200729",
+          "size": 179337082,
+          "md5": "410e1055db4f43fc91fc53db27c37abc",
+          "sha1": "258f4811659442d7877cfbf3fa6336c6d626bfea",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-8.1-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.1-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         }
       },
@@ -2711,7 +1875,7 @@
         "stable"
       ],
       "date": [
-        "20200728"
+        "20200729"
       ]
     },
     "8.0": {
@@ -2720,16 +1884,16 @@
       ],
       "downloads": {
         "tvstock": {
-          "name": "open_gapps-arm64-8.0-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 235623684,
-          "md5": "63cd49e4d487a249f275a6b3f22ff513",
-          "sha1": "21b5ecc919615d0370fef5cc5b733440c25a88c5",
+          "name": "open_gapps-arm64-8.0-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 235955501,
+          "md5": "fb87b0924994971eddd7bdadff73f8eb",
+          "sha1": "34dc0b86097c90dec0946812842eb40500178472",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.0-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.0-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-8.0-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-8.0-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-8.0-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-8.0-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         }
       },
@@ -2737,137 +1901,137 @@
         "stable"
       ],
       "date": [
-        "20200728"
+        "20200729"
       ]
     },
     "7.1": {
       "variant": [
-        "stock",
-        "super",
-        "micro",
-        "tvstock",
-        "pico",
-        "nano",
-        "full",
         "mini",
-        "aroma"
+        "nano",
+        "tvstock",
+        "aroma",
+        "pico",
+        "super",
+        "full",
+        "stock",
+        "micro"
       ],
       "downloads": {
-        "stock": {
-          "name": "open_gapps-arm64-7.1-stock-20200728.zip",
-          "date": "20200728",
-          "size": 879360521,
-          "md5": "ec2e211ce55e2688f5a4652f533bda0b",
-          "sha1": "6518e4730956c42dcbd30ea4659b821a7539beeb",
+        "mini": {
+          "name": "open_gapps-arm64-7.1-mini-20200729.zip",
+          "date": "20200729",
+          "size": 493453139,
+          "md5": "eb733435a6f689c2a992ddc436538e8e",
+          "sha1": "e5a99537c8e5470177c59968f1e5cd606f7fa6e3",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-stock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-mini-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-7.1-stock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-stock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "super": {
-          "name": "open_gapps-arm64-7.1-super-20200728.zip",
-          "date": "20200728",
-          "size": 1141534025,
-          "md5": "10c4040a89a576ba518baa8a20797505",
-          "sha1": "ae0b387ba3f718b679d37b1163b4ffd32c9167e7",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-super-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-7.1-super-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-super-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "micro": {
-          "name": "open_gapps-arm64-7.1-micro-20200728.zip",
-          "date": "20200728",
-          "size": 272269011,
-          "md5": "d37b1fec9c34bc91e587755a90914775",
-          "sha1": "f4b3d96d9f0109c94f4b3ff5aaf25addbb77787b",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-micro-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-7.1-micro-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-micro-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "tvstock": {
-          "name": "open_gapps-arm64-7.1-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 220596603,
-          "md5": "77f620927422c45274b328d2c6bedb24",
-          "sha1": "3b2a94f508db3f824af582282b4456a5db168b09",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-7.1-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "pico": {
-          "name": "open_gapps-arm64-7.1-pico-20200728.zip",
-          "date": "20200728",
-          "size": 144084183,
-          "md5": "48437c78fa79b302366aef95ef185758",
-          "sha1": "40d566d0daf7e7a8bb7d8ea9b4641dc8b56f34c6",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-7.1-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-7.1-mini-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-mini-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "nano": {
-          "name": "open_gapps-arm64-7.1-nano-20200728.zip",
-          "date": "20200728",
-          "size": 219297451,
-          "md5": "29fc186b610b0593ded22c1660f6c015",
-          "sha1": "eb1fa152d8fbd9c26458a14e8b3a9df28076a15f",
+          "name": "open_gapps-arm64-7.1-nano-20200729.zip",
+          "date": "20200729",
+          "size": 219297447,
+          "md5": "41b0c14433c4114d5eddb1b2b7e62e7d",
+          "sha1": "29cb6e2708dd7de395951b525856995353ed1851",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-7.1-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-7.1-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
-        "full": {
-          "name": "open_gapps-arm64-7.1-full-20200728.zip",
-          "date": "20200728",
-          "size": 650554277,
-          "md5": "df277ef9da67d58e9987bd80b84f29c1",
-          "sha1": "59389b527a801e4bef0a09d39012caadedf2d2b4",
+        "tvstock": {
+          "name": "open_gapps-arm64-7.1-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 220928424,
+          "md5": "7459642a6c93b8692bf7232c870db165",
+          "sha1": "f218e0bbaa4ac365852b3ee4e0dd6455c8eb9022",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-full-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-7.1-full-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-full-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "mini": {
-          "name": "open_gapps-arm64-7.1-mini-20200728.zip",
-          "date": "20200728",
-          "size": 493454007,
-          "md5": "64b9e5253a7816911b39efd3935b0ea7",
-          "sha1": "967e024b8c9fc9bcd61c52ff19e5070eb925f921",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-mini-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-7.1-mini-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-mini-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-7.1-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "aroma": {
-          "name": "open_gapps-arm64-7.1-aroma-20200728.zip",
-          "date": "20200728",
-          "size": 1440417115,
-          "md5": "6d804dc9f35e5028a098f8d524e887a0",
-          "sha1": "ae69753846257742380bb2f5e86a7e8eba14a2b9",
+          "name": "open_gapps-arm64-7.1-aroma-20200729.zip",
+          "date": "20200729",
+          "size": 1429358956,
+          "md5": "638b84bde16f2e61e2943af1b20fcb91",
+          "sha1": "85da3d48a9bb4dc6acefeb7cefc92a8a148d2f5e",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-aroma-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-aroma-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-7.1-aroma-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.1-aroma-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-7.1-aroma-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-aroma-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "pico": {
+          "name": "open_gapps-arm64-7.1-pico-20200729.zip",
+          "date": "20200729",
+          "size": 144084184,
+          "md5": "0eed5eb1796a9659dd319fd4099cf01a",
+          "sha1": "4f0922fdd4303c94a1a2ff7c7364320a8cfaab1f",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-7.1-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "super": {
+          "name": "open_gapps-arm64-7.1-super-20200729.zip",
+          "date": "20200729",
+          "size": 1131779919,
+          "md5": "7ba6714f7039216b32c1572d0cf0241c",
+          "sha1": "12756580455e7534ee24dce1aef8afcb3988c709",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-super-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-7.1-super-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-super-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "full": {
+          "name": "open_gapps-arm64-7.1-full-20200729.zip",
+          "date": "20200729",
+          "size": 649699585,
+          "md5": "fd48f17a847e44abf4c6e77351e8a43d",
+          "sha1": "b6d8fb3122dbb772c92bf26fc3d60a00dbc20174",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-full-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-7.1-full-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-full-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "stock": {
+          "name": "open_gapps-arm64-7.1-stock-20200729.zip",
+          "date": "20200729",
+          "size": 869606413,
+          "md5": "fe8832af791d403cb8eefb9ea8729b30",
+          "sha1": "ad3b66fbb2db5616109093361b9a24ac227d2e31",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-stock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-7.1-stock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-stock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "micro": {
+          "name": "open_gapps-arm64-7.1-micro-20200729.zip",
+          "date": "20200729",
+          "size": 272269011,
+          "md5": "e76a41cdac7bbd2a964117044a935855",
+          "sha1": "b57d631c5a69b8ca9c85304747600b1477d51fac",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-micro-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-7.1-micro-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.1-micro-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         }
       },
@@ -2875,81 +2039,81 @@
         "stable"
       ],
       "date": [
-        "20200728"
+        "20200729"
       ]
     },
     "7.0": {
       "variant": [
         "pico",
+        "aroma",
         "nano",
         "tvstock",
-        "stock",
-        "aroma"
+        "stock"
       ],
       "downloads": {
         "pico": {
-          "name": "open_gapps-arm64-7.0-pico-20200728.zip",
-          "date": "20200728",
-          "size": 146791835,
-          "md5": "d526ea89829dd1aabec8d5bd7d4493e9",
-          "sha1": "535fd497de0ecfc2a26da159b426f8cd791fbb94",
+          "name": "open_gapps-arm64-7.0-pico-20200729.zip",
+          "date": "20200729",
+          "size": 146791840,
+          "md5": "ca6cbf062f1615b3f412614180b17115",
+          "sha1": "da49f4818cd4189bc11aefb265db46ee5eacf92c",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.0-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.0-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-7.0-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.0-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "nano": {
-          "name": "open_gapps-arm64-7.0-nano-20200728.zip",
-          "date": "20200728",
-          "size": 221838880,
-          "md5": "fcde3ce9c09bf9b25352ae71d5e789df",
-          "sha1": "37f7c85e69d88b3dfad3a2adc3f3fc55812add9e",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.0-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-7.0-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.0-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "tvstock": {
-          "name": "open_gapps-arm64-7.0-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 220548599,
-          "md5": "2c1ae702bc77e6ba15c00e6daee0d3ca",
-          "sha1": "fc238eeca69ec516fa28ab151e361e8c846d932e",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.0-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-7.0-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.0-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "stock": {
-          "name": "open_gapps-arm64-7.0-stock-20200728.zip",
-          "date": "20200728",
-          "size": 883373278,
-          "md5": "7791ba2877d5ffab2ef80b21ce3b80f2",
-          "sha1": "75a29916745bae23f7b514fda42643d8179dc310",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.0-stock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-7.0-stock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.0-stock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-7.0-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.0-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "aroma": {
-          "name": "open_gapps-arm64-7.0-aroma-20200728.zip",
-          "date": "20200728",
-          "size": 1444373198,
-          "md5": "ecdc71ee0f0967dcb24de576ddd4aaae",
-          "sha1": "7de6b7e141af2de79030c0f8d0d62864c67be14e",
+          "name": "open_gapps-arm64-7.0-aroma-20200729.zip",
+          "date": "20200729",
+          "size": 1433315038,
+          "md5": "ef262dae22cc532e4f0562047f1e0680",
+          "sha1": "fc0a638ffd60febf8988c1f350d445fe1b134ba6",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.0-aroma-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.0-aroma-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-7.0-aroma-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-7.0-aroma-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-7.0-aroma-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.0-aroma-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "nano": {
+          "name": "open_gapps-arm64-7.0-nano-20200729.zip",
+          "date": "20200729",
+          "size": 221838880,
+          "md5": "7bd7e9b5b57fc74e974a75885d3e02cc",
+          "sha1": "34fce1e66e9b8a198a2a592dc4bac0a676cff52f",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.0-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-7.0-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.0-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "tvstock": {
+          "name": "open_gapps-arm64-7.0-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 220880418,
+          "md5": "c2e1360f81b4cdb6db47db8882e15178",
+          "sha1": "a298bd9107642000835567476fe193e69f546a6f",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.0-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-7.0-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.0-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "stock": {
+          "name": "open_gapps-arm64-7.0-stock-20200729.zip",
+          "date": "20200729",
+          "size": 873619172,
+          "md5": "f232c210c78bce8f577d56292e6fc20b",
+          "sha1": "183020c73f52469d3fbec31273affabed16725ba",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.0-stock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-7.0-stock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-7.0-stock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         }
       },
@@ -2957,81 +2121,81 @@
         "stable"
       ],
       "date": [
-        "20200728"
+        "20200729"
       ]
     },
     "6.0": {
       "variant": [
-        "nano",
         "pico",
         "aroma",
-        "stock",
-        "tvstock"
+        "nano",
+        "tvstock",
+        "stock"
       ],
       "downloads": {
-        "nano": {
-          "name": "open_gapps-arm64-6.0-nano-20200728.zip",
-          "date": "20200728",
-          "size": 218196201,
-          "md5": "c851aed668a6b2fe101c4dcdcaf68721",
-          "sha1": "63aa3e05dfc399c56fa68a9a347535fb7c91abad",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-6.0-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-6.0-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-6.0-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
         "pico": {
-          "name": "open_gapps-arm64-6.0-pico-20200728.zip",
-          "date": "20200728",
-          "size": 143149161,
-          "md5": "d21b075a96daba0dcd50083bcf8858ba",
-          "sha1": "95637f563e9d0d346253b7b489d1e7edc4ebff18",
+          "name": "open_gapps-arm64-6.0-pico-20200729.zip",
+          "date": "20200729",
+          "size": 143149162,
+          "md5": "70c8c9097d33f7178df13dbb613b1ecc",
+          "sha1": "76f6c9003e4a295e4e983402949a98b3b7d4303e",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-6.0-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-6.0-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-6.0-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-6.0-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-6.0-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-6.0-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "aroma": {
-          "name": "open_gapps-arm64-6.0-aroma-20200728.zip",
-          "date": "20200728",
-          "size": 1366914333,
-          "md5": "84fc0b967bf45a11f3c2a74f382313da",
-          "sha1": "c8fa5217fc4ad585b6f00bc284b2c86919a151f7",
+          "name": "open_gapps-arm64-6.0-aroma-20200729.zip",
+          "date": "20200729",
+          "size": 1359915789,
+          "md5": "5945702b04c45c902a8906d1e68d640b",
+          "sha1": "5c0795c7c68dde45b4889b559b8bc1140ce6d220",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-6.0-aroma-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-6.0-aroma-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-6.0-aroma-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-6.0-aroma-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-6.0-aroma-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-6.0-aroma-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
-        "stock": {
-          "name": "open_gapps-arm64-6.0-stock-20200728.zip",
-          "date": "20200728",
-          "size": 805799555,
-          "md5": "06498899578b9cf02a8da9b03ee4f933",
-          "sha1": "60add63f51b25ae31aac5b39313b8ca96faaaf18",
+        "nano": {
+          "name": "open_gapps-arm64-6.0-nano-20200729.zip",
+          "date": "20200729",
+          "size": 218196202,
+          "md5": "acb40940a2dea73050c92ced3d3235d1",
+          "sha1": "7d73d6d8c3be6114eda050c13489e0dd5d3997ee",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-6.0-stock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-6.0-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-6.0-stock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-6.0-stock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-6.0-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-6.0-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "tvstock": {
-          "name": "open_gapps-arm64-6.0-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 221090607,
-          "md5": "8c49b78fd44108509a6259a9bac9309d",
-          "sha1": "250e096336dc32ab1055d389f4ddd402c20b418c",
+          "name": "open_gapps-arm64-6.0-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 221422431,
+          "md5": "c45330b698822b77d9cca4417aa08003",
+          "sha1": "c1236a649263cd35ec73aef136fef765178e002b",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-6.0-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-6.0-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-6.0-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-6.0-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-6.0-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-6.0-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "stock": {
+          "name": "open_gapps-arm64-6.0-stock-20200729.zip",
+          "date": "20200729",
+          "size": 800110776,
+          "md5": "5759f06a84897a08852090bf8ec4ddf5",
+          "sha1": "91c70e1715b13b3b2561e3a3a785002a7ff194e6",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-6.0-stock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-6.0-stock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-6.0-stock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         }
       },
@@ -3039,81 +2203,81 @@
         "stable"
       ],
       "date": [
-        "20200728"
+        "20200729"
       ]
     },
     "5.1": {
       "variant": [
         "tvstock",
+        "pico",
         "aroma",
         "nano",
-        "stock",
-        "pico"
+        "stock"
       ],
       "downloads": {
         "tvstock": {
-          "name": "open_gapps-arm64-5.1-tvstock-20200728.zip",
-          "date": "20200728",
-          "size": 236329729,
-          "md5": "d00addd1aa3a9b6f3997cd3342eee07e",
-          "sha1": "63280b89b4da6b37d0c2a9378db6b83be25d2e1b",
+          "name": "open_gapps-arm64-5.1-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 236662340,
+          "md5": "18526122d525e5663a4b0ae3ddd502ab",
+          "sha1": "58485f57f429fb453dcba1c9bd10ce0fe9e96fa5",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.1-tvstock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.1-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-5.1-tvstock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.1-tvstock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "aroma": {
-          "name": "open_gapps-arm64-5.1-aroma-20200728.zip",
-          "date": "20200728",
-          "size": 966892327,
-          "md5": "58656310b4dd137cc25c0e09944f0438",
-          "sha1": "d51501a3c27adb0c47d4bf445ce2b1493d58c86a",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.1-aroma-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-5.1-aroma-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.1-aroma-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "nano": {
-          "name": "open_gapps-arm64-5.1-nano-20200728.zip",
-          "date": "20200728",
-          "size": 200950638,
-          "md5": "6b2c7c6beee4f6ac881fba63aa32eec2",
-          "sha1": "f83490bbd2d7a0ead5490672fc3a04974ebf7d85",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.1-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-5.1-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.1-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
-          }
-        },
-        "stock": {
-          "name": "open_gapps-arm64-5.1-stock-20200728.zip",
-          "date": "20200728",
-          "size": 695977673,
-          "md5": "19f2e501f1328f43ef69c9c08fc51a6e",
-          "sha1": "747ab04bf5a2bf90d9f79c75e779e3d173cd5062",
-          "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.1-stock-20200728.zip?r=&ts={time}&use_mirror=autoselect",
-          "md5file": {
-            "name": "open_gapps-arm64-5.1-stock-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.1-stock-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-5.1-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.1-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "pico": {
-          "name": "open_gapps-arm64-5.1-pico-20200728.zip",
-          "date": "20200728",
-          "size": 121613363,
-          "md5": "1f38b7dc07b3b01a2c65e7e294af2079",
-          "sha1": "d6b0206814b08d3eef1e58e259dd31d2956dda94",
+          "name": "open_gapps-arm64-5.1-pico-20200729.zip",
+          "date": "20200729",
+          "size": 121613365,
+          "md5": "b7aba612b6c38d17e28df9a46dde1579",
+          "sha1": "51ce514a1cd691d0bda043ecccf5506b2b827022",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.1-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.1-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-5.1-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.1-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-5.1-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.1-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "aroma": {
+          "name": "open_gapps-arm64-5.1-aroma-20200729.zip",
+          "date": "20200729",
+          "size": 959975584,
+          "md5": "2742960e18ca9e19b58ce7a2bfaf0b89",
+          "sha1": "aa8fd3039074ddf2df6c2c50f21fda2a24aa6e27",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.1-aroma-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-5.1-aroma-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.1-aroma-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "nano": {
+          "name": "open_gapps-arm64-5.1-nano-20200729.zip",
+          "date": "20200729",
+          "size": 200950636,
+          "md5": "03b4fce18503a1397988edca09bd2009",
+          "sha1": "e3c2598aaa88a2e28eb922f9b4d50a8eee4d69ef",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.1-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-5.1-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.1-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "stock": {
+          "name": "open_gapps-arm64-5.1-stock-20200729.zip",
+          "date": "20200729",
+          "size": 690274763,
+          "md5": "5e18eb12e4228b74beab11c9716afa57",
+          "sha1": "ebef540933a49d176628ead871e4650c6069483d",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.1-stock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm64-5.1-stock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.1-stock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         }
       },
@@ -3121,7 +2285,7 @@
         "stable"
       ],
       "date": [
-        "20200728"
+        "20200729"
       ]
     },
     "5.0": {
@@ -3131,29 +2295,29 @@
       ],
       "downloads": {
         "pico": {
-          "name": "open_gapps-arm64-5.0-pico-20200728.zip",
-          "date": "20200728",
-          "size": 122542516,
-          "md5": "d28574814765e1d1b5566cc945444481",
-          "sha1": "d3d7d46675dd7573499fec192fce56bc7ee24e70",
+          "name": "open_gapps-arm64-5.0-pico-20200729.zip",
+          "date": "20200729",
+          "size": 122542518,
+          "md5": "35596cb303aab60545f294bff1d74e53",
+          "sha1": "27c2c7f11f7580a19ef1004c25e870e76d14fedf",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.0-pico-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.0-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-5.0-pico-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.0-pico-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-5.0-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.0-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         },
         "nano": {
-          "name": "open_gapps-arm64-5.0-nano-20200728.zip",
-          "date": "20200728",
-          "size": 201879794,
-          "md5": "01caafb49c560a4520d15c059628de38",
-          "sha1": "15e0f7e609d857dc8bb35a9406a1b7d6d9478a5a",
+          "name": "open_gapps-arm64-5.0-nano-20200729.zip",
+          "date": "20200729",
+          "size": 201879788,
+          "md5": "9b6c25f6cb0a68c01a91c9e854911b25",
+          "sha1": "44790cd294cf0c70e09bc7cc8a5232bc2d314b7c",
           "state": "stable",
-          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.0-nano-20200728.zip?r=&ts={time}&use_mirror=autoselect",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.0-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
           "md5file": {
-            "name": "open_gapps-arm64-5.0-nano-20200728.zip.md5",
-            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200728/open_gapps-arm64-5.0-nano-20200728.zip.md5?r=&ts={time}&use_mirror=autoselect"
+            "name": "open_gapps-arm64-5.0-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm64/20200729/open_gapps-arm64-5.0-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
           }
         }
       },
@@ -3161,7 +2325,843 @@
         "stable"
       ],
       "date": [
-        "20200728"
+        "20200729"
+      ]
+    }
+  },
+  "arm": {
+    "10.0": {
+      "variant": [
+        "mini",
+        "pico",
+        "micro",
+        "nano"
+      ],
+      "downloads": {
+        "mini": {
+          "name": "open_gapps-arm-10.0-mini-20200729.zip",
+          "date": "20200729",
+          "size": 439002975,
+          "md5": "30edd90301b51ae5e914b85bc10f1127",
+          "sha1": "4b4d449fe7ab1f56761d6963af8d30d09350ac3b",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-10.0-mini-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-10.0-mini-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-10.0-mini-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "pico": {
+          "name": "open_gapps-arm-10.0-pico-20200729.zip",
+          "date": "20200729",
+          "size": 97458991,
+          "md5": "9b6f1c0f7060c24b661bf59cdd1d7b16",
+          "sha1": "b110ac81603d3f7fd8fc559ee2d77f7800c43c92",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-10.0-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-10.0-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-10.0-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "micro": {
+          "name": "open_gapps-arm-10.0-micro-20200729.zip",
+          "date": "20200729",
+          "size": 256509370,
+          "md5": "28e829898644d454ef9962b5a8273f58",
+          "sha1": "5e4220a5c2811a89a67c6b6f022d2e5e571c0f6d",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-10.0-micro-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-10.0-micro-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-10.0-micro-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "nano": {
+          "name": "open_gapps-arm-10.0-nano-20200729.zip",
+          "date": "20200729",
+          "size": 193397623,
+          "md5": "bb31bbceba0defff129980dd556b0fe3",
+          "sha1": "7e5f50c1e8e34faf581b59c6f3cd225c6cb8b534",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-10.0-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-10.0-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-10.0-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        }
+      },
+      "state": [
+        "stable"
+      ],
+      "date": [
+        "20200729"
+      ]
+    },
+    "9.0": {
+      "variant": [
+        "mini",
+        "aroma",
+        "micro",
+        "stock",
+        "tvstock",
+        "full",
+        "nano",
+        "super",
+        "pico"
+      ],
+      "downloads": {
+        "mini": {
+          "name": "open_gapps-arm-9.0-mini-20200729.zip",
+          "date": "20200729",
+          "size": 431861628,
+          "md5": "0f5b8417ed6f7eb9bc5cb73f39001b2c",
+          "sha1": "e23f76a3b5ec97ab0beccc20fbcb87512f21f529",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-mini-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-9.0-mini-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-mini-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "aroma": {
+          "name": "open_gapps-arm-9.0-aroma-20200729.zip",
+          "date": "20200729",
+          "size": 1496465953,
+          "md5": "eed9867da1aecf64ac9b66c3429b4f69",
+          "sha1": "4d0743ad09923d836ed1e067867a46433854e809",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-aroma-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-9.0-aroma-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-aroma-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "micro": {
+          "name": "open_gapps-arm-9.0-micro-20200729.zip",
+          "date": "20200729",
+          "size": 249241896,
+          "md5": "696c939e67692bd7b8b8f1f861ffdcef",
+          "sha1": "3d64c201fc1bf77de9a7d44476148c5c218f1311",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-micro-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-9.0-micro-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-micro-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "stock": {
+          "name": "open_gapps-arm-9.0-stock-20200729.zip",
+          "date": "20200729",
+          "size": 772388459,
+          "md5": "8d9d3bc91d4a71491822445d3d4c327e",
+          "sha1": "c545d299dba2d071224fc703f9e1b0d40e81a57b",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-stock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-9.0-stock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-stock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "tvstock": {
+          "name": "open_gapps-arm-9.0-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 211516964,
+          "md5": "22e794b31ed8e9bf0a781d5e059b942c",
+          "sha1": "acea362cf5b9d8dc50de1d5c4de88e633e41acad",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-9.0-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "full": {
+          "name": "open_gapps-arm-9.0-full-20200729.zip",
+          "date": "20200729",
+          "size": 571751846,
+          "md5": "e7f9cff5e74ffe929f65030f2f6342e4",
+          "sha1": "f9229856068567967f089ca90d75725ee45d5aea",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-full-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-9.0-full-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-full-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "nano": {
+          "name": "open_gapps-arm-9.0-nano-20200729.zip",
+          "date": "20200729",
+          "size": 196111722,
+          "md5": "4bb9766e312ee6bc9c91dc342e1aa2b7",
+          "sha1": "ac989ac1f5173a6bae4a927e20297dae858cec39",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-9.0-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "super": {
+          "name": "open_gapps-arm-9.0-super-20200729.zip",
+          "date": "20200729",
+          "size": 1038736246,
+          "md5": "9ebd7819ecccdc6e6add25e717c37512",
+          "sha1": "3f6d44b50b95890b999cf64b52d8a31bb5e80477",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-super-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-9.0-super-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-super-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "pico": {
+          "name": "open_gapps-arm-9.0-pico-20200729.zip",
+          "date": "20200729",
+          "size": 101187330,
+          "md5": "a76f1f9b3cb4ccf73a7f1a49dd00bbe3",
+          "sha1": "2e6fc17a24855fc64e64d77c99cd9c52db10412e",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-9.0-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-9.0-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        }
+      },
+      "state": [
+        "stable"
+      ],
+      "date": [
+        "20200729"
+      ]
+    },
+    "8.1": {
+      "variant": [
+        "micro",
+        "super",
+        "tvstock",
+        "stock",
+        "nano",
+        "pico",
+        "mini",
+        "aroma",
+        "full"
+      ],
+      "downloads": {
+        "micro": {
+          "name": "open_gapps-arm-8.1-micro-20200729.zip",
+          "date": "20200729",
+          "size": 287231650,
+          "md5": "7cb2dc21fa35ce0a294e7e5bf5d67448",
+          "sha1": "820bd0ba41e27da4520d56c4bd1140fa03092a0b",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-micro-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-8.1-micro-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-micro-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "super": {
+          "name": "open_gapps-arm-8.1-super-20200729.zip",
+          "date": "20200729",
+          "size": 1068013535,
+          "md5": "facabba799953414ecd9b9394f17867c",
+          "sha1": "e0954609bdb52896283fee49551065f6dee4dddf",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-super-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-8.1-super-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-super-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "tvstock": {
+          "name": "open_gapps-arm-8.1-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 214952318,
+          "md5": "52588ea2006b1b5b41a6e7b8ad1be4e7",
+          "sha1": "9e790b4c5b4cb13cc34d535aa13dbf9ba7c685ae",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-8.1-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "stock": {
+          "name": "open_gapps-arm-8.1-stock-20200729.zip",
+          "date": "20200729",
+          "size": 809229787,
+          "md5": "021ff55e8f4836b70fbbb3fa0ee5b745",
+          "sha1": "4ba60e75efe15980ccd29133d34ad61e7a0c977c",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-stock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-8.1-stock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-stock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "nano": {
+          "name": "open_gapps-arm-8.1-nano-20200729.zip",
+          "date": "20200729",
+          "size": 234576006,
+          "md5": "9300364f55bb5e3456d975effecc551c",
+          "sha1": "5b0afde8e46767b6040c9c3e2286861240af109c",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-8.1-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "pico": {
+          "name": "open_gapps-arm-8.1-pico-20200729.zip",
+          "date": "20200729",
+          "size": 153778639,
+          "md5": "bd8d85e98be4c6b0ea3de32a159bcf34",
+          "sha1": "7f7572e8678df1632ffd02652681648f57090c54",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-8.1-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "mini": {
+          "name": "open_gapps-arm-8.1-mini-20200729.zip",
+          "date": "20200729",
+          "size": 469738893,
+          "md5": "345d2a0df7659debad14ce793ea8889e",
+          "sha1": "5db61e4ad3aa14e392661adde7593a5eaeb21780",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-mini-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-8.1-mini-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-mini-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "aroma": {
+          "name": "open_gapps-arm-8.1-aroma-20200729.zip",
+          "date": "20200729",
+          "size": 1438459054,
+          "md5": "c7f882afb2f386538c6ff1373e4b5b46",
+          "sha1": "c5a792c6176380c7cc4ea25e137cc76fbda858c7",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-aroma-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-8.1-aroma-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-aroma-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "full": {
+          "name": "open_gapps-arm-8.1-full-20200729.zip",
+          "date": "20200729",
+          "size": 608433496,
+          "md5": "3fc1f248f8bc22cfda6f06ed0955cd54",
+          "sha1": "ab04c3fb21b8dfccd8c10b6132a119b85386c130",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-full-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-8.1-full-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.1-full-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        }
+      },
+      "state": [
+        "stable"
+      ],
+      "date": [
+        "20200729"
+      ]
+    },
+    "8.0": {
+      "variant": [
+        "tvstock"
+      ],
+      "downloads": {
+        "tvstock": {
+          "name": "open_gapps-arm-8.0-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 214934318,
+          "md5": "1521b0362c7f8d402ef945a541f4fc94",
+          "sha1": "1a15f3cf5b0cf58800666bd9a50880dcf86cabec",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.0-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-8.0-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-8.0-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        }
+      },
+      "state": [
+        "stable"
+      ],
+      "date": [
+        "20200729"
+      ]
+    },
+    "7.1": {
+      "variant": [
+        "super",
+        "stock",
+        "nano",
+        "aroma",
+        "mini",
+        "pico",
+        "full",
+        "tvstock",
+        "micro"
+      ],
+      "downloads": {
+        "super": {
+          "name": "open_gapps-arm-7.1-super-20200729.zip",
+          "date": "20200729",
+          "size": 1069408409,
+          "md5": "5cd44fbb165ac479bba59039e7e2c985",
+          "sha1": "51b733ea5dbf81a5b0b11211df746b37df494d0b",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-super-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.1-super-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-super-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "stock": {
+          "name": "open_gapps-arm-7.1-stock-20200729.zip",
+          "date": "20200729",
+          "size": 810624660,
+          "md5": "a62eb453a3fc77c3d2de290893b46b20",
+          "sha1": "a9aa050b1b44a5c94b457767ad3714b818406567",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-stock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.1-stock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-stock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "nano": {
+          "name": "open_gapps-arm-7.1-nano-20200729.zip",
+          "date": "20200729",
+          "size": 236441360,
+          "md5": "018e219062b0652394e9ac210933cce4",
+          "sha1": "f368ca426de4cc57aaf8df3118ccd826e3141439",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.1-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "aroma": {
+          "name": "open_gapps-arm-7.1-aroma-20200729.zip",
+          "date": "20200729",
+          "size": 1450478862,
+          "md5": "70d2f760973b43556418a306942ec763",
+          "sha1": "89d264464405b877187cd26cc0946943deb7235e",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-aroma-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.1-aroma-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-aroma-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "mini": {
+          "name": "open_gapps-arm-7.1-mini-20200729.zip",
+          "date": "20200729",
+          "size": 471912283,
+          "md5": "832f28e07ba3c2c985dc011a2bf1a9d3",
+          "sha1": "3bd309047dbc3ec7a2d2930f00b106cde1fea657",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-mini-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.1-mini-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-mini-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "pico": {
+          "name": "open_gapps-arm-7.1-pico-20200729.zip",
+          "date": "20200729",
+          "size": 155920839,
+          "md5": "321ddb78c1f6aeae3935799018a0bf0a",
+          "sha1": "69876892e5cc793e2adeae723e6100e7ca72cf8a",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.1-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "full": {
+          "name": "open_gapps-arm-7.1-full-20200729.zip",
+          "date": "20200729",
+          "size": 610606886,
+          "md5": "f695cd03880522b374cd3dce8d5095aa",
+          "sha1": "7e3b249b433469610fc3e67f7f186dc392ea32ac",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-full-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.1-full-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-full-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "tvstock": {
+          "name": "open_gapps-arm-7.1-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 199907262,
+          "md5": "54613bdf34e8aa3dd38d5fa2d224da50",
+          "sha1": "fba8446fb9a3837d030b61546788ce9dc63ba935",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.1-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "micro": {
+          "name": "open_gapps-arm-7.1-micro-20200729.zip",
+          "date": "20200729",
+          "size": 289423725,
+          "md5": "f7898acf300ce746ed6b86238ab8ef53",
+          "sha1": "e1383745d6f30140be0d227c2c5ebb98798d604e",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-micro-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.1-micro-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.1-micro-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        }
+      },
+      "state": [
+        "stable"
+      ],
+      "date": [
+        "20200729"
+      ]
+    },
+    "7.0": {
+      "variant": [
+        "aroma",
+        "stock",
+        "tvstock",
+        "pico",
+        "nano"
+      ],
+      "downloads": {
+        "aroma": {
+          "name": "open_gapps-arm-7.0-aroma-20200729.zip",
+          "date": "20200729",
+          "size": 1452200880,
+          "md5": "30db1634441766c08e7938f317dd81cf",
+          "sha1": "687b9fd331eb81aca2dc6b1363ce007983e41d9b",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.0-aroma-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.0-aroma-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.0-aroma-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "stock": {
+          "name": "open_gapps-arm-7.0-stock-20200729.zip",
+          "date": "20200729",
+          "size": 812411012,
+          "md5": "2d2274133770d8069463bda9ebf5c1b1",
+          "sha1": "5a2df438ccb92c9bc6ec4d3d020754d8658a6b90",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.0-stock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.0-stock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.0-stock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "tvstock": {
+          "name": "open_gapps-arm-7.0-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 199859256,
+          "md5": "b8cd23b3efdefae1c0f1fe68684de882",
+          "sha1": "ae89dba3ac40345325332a552b54ab7bf4a8cdad",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.0-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.0-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.0-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "pico": {
+          "name": "open_gapps-arm-7.0-pico-20200729.zip",
+          "date": "20200729",
+          "size": 158628499,
+          "md5": "e9e153ee7d011c1b31cf1cef4677958c",
+          "sha1": "02e37928b37c2578e24faec5dcefb853c22ad38a",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.0-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.0-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.0-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "nano": {
+          "name": "open_gapps-arm-7.0-nano-20200729.zip",
+          "date": "20200729",
+          "size": 238982797,
+          "md5": "f8b865a1115d1fcdf9e8f723da96b36b",
+          "sha1": "88756c61df21bd06f3bf76e89268c83fadde1772",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.0-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-7.0-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-7.0-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        }
+      },
+      "state": [
+        "stable"
+      ],
+      "date": [
+        "20200729"
+      ]
+    },
+    "6.0": {
+      "variant": [
+        "stock",
+        "aroma",
+        "tvstock",
+        "pico",
+        "nano"
+      ],
+      "downloads": {
+        "stock": {
+          "name": "open_gapps-arm-6.0-stock-20200729.zip",
+          "date": "20200729",
+          "size": 798988298,
+          "md5": "23e16755e38a1d68fd39648dd3f81676",
+          "sha1": "b5cb01d3d12dee7d7e5e006ffbff2ef06165c7f3",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-6.0-stock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-6.0-stock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-6.0-stock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "aroma": {
+          "name": "open_gapps-arm-6.0-aroma-20200729.zip",
+          "date": "20200729",
+          "size": 1438850787,
+          "md5": "ac60e5bad3e93b420f9f3c7840c7994a",
+          "sha1": "fe26430f5dce67e5f977f60e82fc9a2de4e538f7",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-6.0-aroma-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-6.0-aroma-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-6.0-aroma-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "tvstock": {
+          "name": "open_gapps-arm-6.0-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 200400698,
+          "md5": "8d59d3772f6ccf664db84b215c4bcb35",
+          "sha1": "0c860c5e4b17c8d014527d16c1d859e758cd901c",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-6.0-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-6.0-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-6.0-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "pico": {
+          "name": "open_gapps-arm-6.0-pico-20200729.zip",
+          "date": "20200729",
+          "size": 154920497,
+          "md5": "870063621ca66051890bd5e0093c93cc",
+          "sha1": "0c91f6b8547adcd021a72ff30b6434cd2c6b3c59",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-6.0-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-6.0-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-6.0-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "nano": {
+          "name": "open_gapps-arm-6.0-nano-20200729.zip",
+          "date": "20200729",
+          "size": 235274796,
+          "md5": "11293e0407fd7f886e17eda9143fbcb6",
+          "sha1": "d55a0ba1ae9e2dc0645d5566e351084158c7856e",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-6.0-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-6.0-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-6.0-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        }
+      },
+      "state": [
+        "stable"
+      ],
+      "date": [
+        "20200729"
+      ]
+    },
+    "5.1": {
+      "variant": [
+        "nano",
+        "aroma",
+        "stock",
+        "pico",
+        "tvstock"
+      ],
+      "downloads": {
+        "nano": {
+          "name": "open_gapps-arm-5.1-nano-20200729.zip",
+          "date": "20200729",
+          "size": 210284188,
+          "md5": "87423d2665dc102200192d4147dbd282",
+          "sha1": "424ad854f664bb9eca0bfd9b638343c1166ddeb2",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.1-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-5.1-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.1-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "aroma": {
+          "name": "open_gapps-arm-5.1-aroma-20200729.zip",
+          "date": "20200729",
+          "size": 1185856016,
+          "md5": "b2c7d0d4b23f6bf963538ca2bf83d5c1",
+          "sha1": "5d25644a61e20b07c3dceeaaf3e8bce39dd67659",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.1-aroma-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-5.1-aroma-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.1-aroma-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "stock": {
+          "name": "open_gapps-arm-5.1-stock-20200729.zip",
+          "date": "20200729",
+          "size": 662261260,
+          "md5": "5fcc561dbb5215ccf848615f492ee661",
+          "sha1": "fb17bd7b66db26075ddffbbf93fd3377f0ee0d78",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.1-stock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-5.1-stock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.1-stock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "pico": {
+          "name": "open_gapps-arm-5.1-pico-20200729.zip",
+          "date": "20200729",
+          "size": 129923605,
+          "md5": "9d87f76db3f46c04b1d550d8e986182e",
+          "sha1": "76728cf2b729940a72d42bcbf5e806731d5baa1c",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.1-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-5.1-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.1-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "tvstock": {
+          "name": "open_gapps-arm-5.1-tvstock-20200729.zip",
+          "date": "20200729",
+          "size": 215017377,
+          "md5": "985d62a852563582c8a1c79dd83c9137",
+          "sha1": "ccdb1375b82a55152e0da79c42fed9957a24fae6",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.1-tvstock-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-5.1-tvstock-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.1-tvstock-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        }
+      },
+      "state": [
+        "stable"
+      ],
+      "date": [
+        "20200729"
+      ]
+    },
+    "5.0": {
+      "variant": [
+        "nano",
+        "pico"
+      ],
+      "downloads": {
+        "nano": {
+          "name": "open_gapps-arm-5.0-nano-20200729.zip",
+          "date": "20200729",
+          "size": 211213188,
+          "md5": "1aac0ec4ad1023f88f719072492c7f8c",
+          "sha1": "ab030e42a2bffecf89689360d850a0e7b9fd8129",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.0-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-5.0-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.0-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "pico": {
+          "name": "open_gapps-arm-5.0-pico-20200729.zip",
+          "date": "20200729",
+          "size": 130852604,
+          "md5": "a89b35187ffed760905ebcae728a3899",
+          "sha1": "e7d6545fea66200b8592f38a844faf389166e8c0",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.0-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-5.0-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-5.0-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        }
+      },
+      "state": [
+        "stable"
+      ],
+      "date": [
+        "20200729"
+      ]
+    },
+    "4.4": {
+      "variant": [
+        "pico",
+        "nano"
+      ],
+      "downloads": {
+        "pico": {
+          "name": "open_gapps-arm-4.4-pico-20200729.zip",
+          "date": "20200729",
+          "size": 125607915,
+          "md5": "dd1b45329ac3db1600540c9e37484f3a",
+          "sha1": "5de44bd73d4185ca91ac291843bc782b2407aede",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-4.4-pico-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-4.4-pico-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-4.4-pico-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        },
+        "nano": {
+          "name": "open_gapps-arm-4.4-nano-20200729.zip",
+          "date": "20200729",
+          "size": 187736472,
+          "md5": "34980929a8348f3c8c7bada665ad6e25",
+          "sha1": "aa31ec1c1e4ce8e2fb12bbb0f86f855fbb76c349",
+          "state": "stable",
+          "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-4.4-nano-20200729.zip?r=&ts={time}&use_mirror=autoselect",
+          "md5file": {
+            "name": "open_gapps-arm-4.4-nano-20200729.zip.md5",
+            "download": "https://downloads.sourceforge.net/project/opengapps/arm/20200729/open_gapps-arm-4.4-nano-20200729.zip.md5?r=&ts={time}&use_mirror=autoselect"
+          }
+        }
+      },
+      "state": [
+        "stable"
+      ],
+      "date": [
+        "20200729"
       ]
     }
   }
