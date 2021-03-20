@@ -29,7 +29,7 @@
         "tvmini": {
           "name": "open_gapps-x86_64-10.0-tvmini-20210314.zip",
           "date": "20210314",
-          "size": null,
+          "size": 120151249,
           "md5": "6bdac9d6f2dd2090fb5fb3af10c9f7e1",
           "sha1": "183ceadc2fdc26b70a60137f4e4d45d7872cec70",
           "state": "stable",
@@ -1132,7 +1132,7 @@
         "tvstock": {
           "name": "open_gapps-x86-9.0-tvstock-20210314.zip",
           "date": "20210314",
-          "size": null,
+          "size": 216459310,
           "md5": "8d3d0b9794db685c608bf1266fd36c26",
           "sha1": "e063b8295ff7f529c597bebab26d60c7e999e4c8",
           "state": "stable",
